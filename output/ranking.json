@@ -1,0 +1,48 @@
+{
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "company": "BAML",
+      "one_sentence_why": "1M+ monthly downloads after 19 months proves product-market fit for a sharp wedge (type-safe LLM outputs), while Atuin below has engagement metrics but unclear monetization and Desktop pivot risk.",
+      "top_signal": "1,035,051 combined monthly downloads (660K NPM + 375K PyPI) demonstrating real production usage at scale",
+      "biggest_risk": "OpenAI/Anthropic could bundle native type-safe function calling into SDKs within 18 months, obsoleting BAML's core value proposition before they build platform defensibility"
+    },
+    {
+      "rank": 2,
+      "company": "Atuin",
+      "one_sentence_why": "29,681 GitHub stars at 14.51/day sustained velocity and 572-point HN Desktop launch show real developer love, beating Tigris below despite both having unclear revenue because Atuin has organic pull where Tigris shows collapsing engagement.",
+      "top_signal": "14.51 GitHub stars/day sustained over 4+ years with 282 contributors shows durable community momentum, not flash-in-pan hype",
+      "biggest_risk": "Single-founder project with no visible monetization path may remain beloved OSS tool that never becomes a business—6,823 crates downloads vs 30K stars suggests engagement gap"
+    },
+    {
+      "rank": 3,
+      "company": "Tigris Data",
+      "one_sentence_why": "Despite $40M from a16z/Spark and strong team pedigree, collapsing HN engagement (71→18→2) and weak downloads (2.6K/month) after product pivot signal PMF struggle that ranks them below proven traction above but above unverified claims below.",
+      "top_signal": "$40M total funding from tier-1 VCs (a16z Seed, Spark Series A) validates team quality and market potential",
+      "biggest_risk": "Product pivot from FoundationDB document database (2022) to object storage (2024) with billing only enabled July 2024 suggests they haven't found PMF after 2+ years and $40M burn"
+    },
+    {
+      "rank": 4,
+      "company": "Parasail",
+      "one_sentence_why": "Zero actual HN mentions in 90 days (all false positives) and no GitHub presence despite $42M raised places them in bottom tier, but Series A validation and claimed 500B+ tokens/day beat the completely unverified players below.",
+      "top_signal": "$32M Series A from Touring Capital/Kindred Ventures suggests validated revenue or traction not visible in public signals",
+      "biggest_risk": "Zero measurable developer engagement (no GitHub, no real HN discussion, no downloads) despite being in market long enough to raise Series A indicates possible top-down enterprise sales without bottom-up pull required for developer tools"
+    },
+    {
+      "rank": 5,
+      "company": "Primitive",
+      "one_sentence_why": "Live beta product with clear wedge (email-to-webhook) edges out Entire below purely because it has an actual functioning website, even though both lack GitHub presence and have contaminated HN signals.",
+      "top_signal": "Clear, specific job-to-be-done solving real developer pain (inbound email handling) in commodity category where incumbents have poor DX",
+      "biggest_risk": "No GitHub repository for a developer infrastructure tool is disqualifying—suggests either no real product, extreme stealth incompatible with dev tools GTM, or negligible usage"
+    },
+    {
+      "rank": 6,
+      "company": "Entire",
+      "one_sentence_why": "Claimed $60M seed is unverified, GitHub repo showing 4.3K stars is not independently visible, and 100% of HN mentions are false positives from the common word 'entire'—this appears to be vaporware or so early that no real validation exists.",
+      "top_signal": "If the $60M seed claim were verified, it would indicate extraordinary investor conviction in the git-native AI context capture thesis",
+      "biggest_risk": "Critical verification failure: all public metrics (GitHub stars, HN mentions, commits) are either unverifiable or confirmed false positives—no independent evidence of real product or users exists"
+    }
+  ],
+  "methodology_note": "I heavily weighted pull signals (organic developer adoption) over push signals (funding, marketing claims) because developer tools live or die on bottom-up adoption. BAML's 1M+ downloads and Atuin's sustained GitHub velocity are hard-to-fake proof of usage. I down-weighted HN mentions by ~70% across the board due to rampant false positives: 'BAML' picks up Bank of America, 'Parasail' the programming language, 'Primitive' an image tool, and 'Entire' is just a common word. For companies with weak or zero GitHub presence (Parasail, Primitive, Entire), I treated this as near-disqualifying for developer tools—you can't build a dev tool without visible code. Funding amounts informed but didn't determine rank: Tigris's $40M couldn't overcome engagement collapse, while Parasail's Series A at least suggests some non-public traction. Wedge clarity mattered less than execution evidence—sharp positioning means nothing without users.",
+  "surprises": "BAML ranking #1 surprised me—I expected the DSL adoption risk and commoditization threat to hurt more, but 1M monthly downloads after 19 months is undeniable validation that developers will learn a new language if the ROI is clear. Tigris falling to #3 despite $40M and strong pedigree was unexpected until I saw the engagement collapse trajectory (71→2 HN mentions) and July 2024 billing launch—classic case of funding creating false confidence. Atuin's #2 rank despite single-founder risk shows how much I value organic pull: 30K stars at sustained velocity beats funded teams without traction. The bottom three (Parasail/Primitive/Entire) were all disqualifying in different ways: Parasail has capital but zero developer signal, Primitive has a beta but no community, Entire has extraordinary claims with zero verification. Most surprising: how many 'developer tools' have no visible GitHub repos—a red flag that would be instant rejection in any real diligence process."
+}

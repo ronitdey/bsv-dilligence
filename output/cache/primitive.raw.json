@@ -1,0 +1,124 @@
+{
+  "company": {
+    "name": "Primitive",
+    "url": "https://www.primitive.dev",
+    "github": null,
+    "portfolio": false
+  },
+  "github": {
+    "success": false,
+    "data": null,
+    "error": "no repo configured",
+    "source": "github"
+  },
+  "hn": {
+    "success": true,
+    "data": {
+      "mentions_90d": 185,
+      "mentions_12mo": 415,
+      "mentions_all_time": 1415,
+      "top_stories": [
+        {
+          "title": "Show HN: Primitive Pictures",
+          "points": 894,
+          "comments": 170,
+          "url": "https://github.com/fogleman/primitive",
+          "created_at": "2016-09-20T12:55:22Z"
+        },
+        {
+          "title": "Show HN: Primitive for macOS",
+          "points": 798,
+          "comments": 145,
+          "url": "https://primitive.lol/",
+          "created_at": "2016-11-15T14:54:01Z"
+        },
+        {
+          "title": "Instead of containers, give me strong config and deploy primitives",
+          "points": 334,
+          "comments": 179,
+          "url": "https://abe-winter.github.io/blues/2017/04/27/config-vs-containers.html",
+          "created_at": "2017-04-27T23:10:11Z"
+        }
+      ]
+    },
+    "error": null,
+    "source": "hackernews"
+  },
+  "packages": [
+    {
+      "success": false,
+      "data": null,
+      "error": "no known package mappings",
+      "source": "packages"
+    }
+  ],
+  "web": {
+    "success": true,
+    "data": {
+      "homepage_text": "primitive [beta] ◐ email is primitive Get Started Docs ⣠⣤⣤⣿⡛⠛⠛⠛⠛⠛⣿⣧⣤⡄ ⢀⣰⡶⠾⠛⠛ ⢷⡆ ⠈⠛⢻⣷⣶⣆⡀ ⢰⣾⠉ ⠸⢷⡆ ⢀⣸⡇⠈⠹⢷⣆⡀ ⣀⣶⠶⠶⣶⣀⡀ ⢸⡇ ⢸⡏⠁ ⠈⠹⢷⣀ ⢠⣿⠉ ⠉⠹⠿⣧⣤ ⠘⠃ ⣤⠟⠁ ⠈⣿⣤ ⢰⣤⣬⣅⣀ ⠛⡇ ⣀⣠⣤⣼⡟⠛⠿⣿⣤⣤⣀ ⢀⣠⡤⠿⣤ ⢠⣤⣄⣉⠉⠹⠶⢦⣤⡀ ⢀⣶⠛⠛ ⠛⠻⣆⡀⢀⣀⣀⡰⠾⠏⠁ ⣿ ⣈⣉⠉⠉ ⠛⠳⠆⢠⣿⠋ ⣰⡶⠶⢶⣆ ⠹⣷⠈⠉⠉⠁ ⣿ ⠛⠛⠻⠿⠿⣦⣤⡄⣀⣀ ⢠⡼⠇ ⣶⠉⠁⣀⠈⢹ ⣿ ⣿ ⢰⣶⣦⣤⣤⣤⡄ ⠉⠉⠃⢸⣷⠶⠏⠉⠉ ⠿⣄⡀⠛⠛⠋ ⢀⣰⡟⢀⣆⣀ ⣤⠿ ⣤⡄ ⣀⣀⣀⣤⣤⣤⡄⢸⣿ ⢠⡄⠹⢿⣤⣤⣤⣼⠟⠃ ⠉⠛⠛⠛⣿⠛ ⠰⠿⠿⠟⠛⠛⠉⠉ ⠿⣆⡀⣀⣶⠛ ⣠⠄ ⠿⣤ ⢀⣶⠿ ⠙⣷⣿ ⣿ ⠙⢧⣤ ⣀⣰⠾⠉ ⠛⠿⢦⣄⣀⣀⣿⡀ ⣀⣀⡶⠶⠏⠉ ⠈⠉⠉⠹⠿⠿⠿⠿⠿⠏⠉⠁ © 2026 primitive Privacy Legal",
+      "funding_results": [
+        {
+          "title": "Primitive Secures 3 Million in Seed Funding on May 1 2021 - Gate.com",
+          "url": "https://www.gate.com/crypto-calendar/fundraising-information/110554",
+          "snippet": "According to media reports, Primitive raised $3 million in seed funding on May 1, 2021. ... Primitive raised $ 9 M in Series A round. 2021-05-01."
+        },
+        {
+          "title": "Primitives - 2026 Funding Rounds & List of Investors - Tracxn",
+          "url": "https://tracxn.com/d/companies/primitives/__28C_xc_SFfGOM5OkLWkW4-1ctAZdUbh7Y86w8e3iqdo/funding-and-investors",
+          "snippet": "Good Boost - London based, raised a funding of $269K in Seed round held on Sep 05, 2025. Rapafusyn - Baltimore based, raised a funding in Series A round held on"
+        },
+        {
+          "title": "Primitives Raises $4M in Pre-Seed Funding - FinSMEs",
+          "url": "https://www.finsmes.com/2022/05/primitives-raises-4m-in-pre-seed-funding.html",
+          "snippet": "HomeUSAPrimitives Raises $4M in Pre-Seed Funding. # Primitives Raises $4M in Pre-Seed Funding. **Primitives**, a New York-based provider of a web3 application designed to facilitate a new way of connecting digitally through experience-based NFTs that users collect in their wallets, raised $4M in Pre-Seed funding. The round was led by Redpoint with participation from Union Square Ventures, Harlem Capital, and Stellation Capital. Led by CEO David “DJ” Gabeau, Primitives is a web3 social applicatio"
+        },
+        {
+          "title": "Primitive raises $9 million to build AMM discovery platform",
+          "url": "https://www.theblock.co/post/164248/primitive-raises-9-million-to-build-amm-discovery-platform",
+          "snippet": "# Primitive raises $9 million to build AMM discovery platform | The Block. May 11, 2026, 12:51PM EDT • Companies. May 11, 2026, 12:28PM EDT • Stablecoins. May 11, 2026, 11:37AM EDT • The Block. # Primitive raises $9 million to build AMM discovery platform. Image 3: Primitive raises $9 million to build AMM discovery platform. *   Bain Capital Crypto leads DeFi infrastructure and product developer Primitive’s $9 million Series A round. *   The new funding will enable Primitive to build products th"
+        },
+        {
+          "title": "Seed Round - Future Primitive - Crunchbase Funding Round Profile",
+          "url": "https://www.crunchbase.com/funding_round/future-primitive-seed--ea3f6b09",
+          "snippet": "Seed Round - Future Primitive. Save. Summary ... Funding Type Seed; Funding Stage Seed; Money Raised. obfuscated. obfuscation. Lead Investors."
+        }
+      ],
+      "community_results": [
+        {
+          "title": "There's a term for this - inventing a new primitive. A ... - Hacker News",
+          "url": "https://news.ycombinator.com/item?id=45611433",
+          "snippet": "A primitive is a foundational abstraction that reframes how people understand and operate within a domain. A primitive lets you create a shared language and"
+        },
+        {
+          "title": "Primitive Technology: Iron Bacteria Cement [video] | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=35002755",
+          "snippet": "If you're new to Primitive Technology then it's worth starting from the oldest videos and working forward. These aren't just random tasks he"
+        },
+        {
+          "title": "A Dangerous Obsession with Primitives | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=4048061",
+          "snippet": "So I prefer to error on the side of wrapping primitives. That said, I've never actually encountered a case where I wrapped a primitive that didn"
+        },
+        {
+          "title": "r/PrimitiveTechnology - Reddit",
+          "url": "https://www.reddit.com/r/PrimitiveTechnology/",
+          "snippet": "r/PrimitiveTechnology: For discussing the Primitive Technology YouTube channel and other related subjects."
+        },
+        {
+          "title": "r/hackernews - Reddit",
+          "url": "https://www.reddit.com/r/hackernews/",
+          "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+        }
+      ],
+      "pricing_results": [
+        {
+          "title": "Terms of Service | primitive",
+          "url": "https://www.primitive.dev/terms",
+          "snippet": "# Terms of Service. ## Service Description. primitive provides inbound email infrastructure that converts incoming emails to webhook deliveries. By using our service, you agree to these terms. ## Acceptable Use. You agree not to use primitive to:. * Violate any applicable laws or regulations. ## Service Availability. We strive for high availability but do not guarantee uninterrupted service. We are not liable for damages resulting from service interruptions, delayed deliveries, or lost emails. *"
+        }
+      ]
+    },
+    "error": null,
+    "source": "web"
+  }
+}

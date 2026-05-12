@@ -1,0 +1,232 @@
+{
+  "scorecard": {
+    "company": "BAML",
+    "one_line_pitch": "A domain-specific language that turns LLM prompts into typed functions with schema engineering, generating native code for Python/TS/Ruby/Go",
+    "wedge": "Structured data extraction from LLMs with type safety and reliability \u2014 solving the \"prompt \u2192 structured output\" problem that every AI app faces",
+    "icp": "Backend engineers and AI app developers who need reliable, type-safe LLM outputs and are frustrated with YAML/JSON prompt management and brittle parsing",
+    "wedge_clarity_score": 9,
+    "wedge_clarity_reasoning": "Exceptionally sharp wedge. The problem is specific and universal: every developer building with LLMs hits the 'get structured data reliably' wall. BAML solves it by treating prompts as strongly-typed functions that compile to native code. The readme is crystal clear: 'LLM Prompts are functions' with concrete code examples. The ICP is obvious \u2014 engineers who value type safety (TypeScript devs, backend engineers) building AI features. Not 'AI platform for everyone' \u2014 it's 'prompt engineering as schema engineering' for developers who care about reliability. The wedge is horizontal (any AI app) but the execution is vertical (developer tooling).",
+    "pull_signals_score": 8,
+    "pull_signals_reasoning": "Strong pull, but with HN caveat. GitHub fundamentals are excellent: 8,212 stars, 8.66 daily star velocity sustained over 19 months, 260 commits/90d, 89 contributors, 19 releases/90d. Package downloads are compelling: 1M+ combined monthly downloads (660K NPM + 375K PyPI). These are real usage numbers. HN shows 484 mentions/90d but 'BAML' is ambiguous (Bank of America Merrill Lynch) \u2014 likely inflated. However, top HN stories are legitimately about the product, and Reddit threads show developer discussion. Customer testimonials cite Amazon, specific startups. The 272 open issues vs 8 closed/90d is concerning for support capacity. Overall, downloads + GitHub activity indicate real organic demand from production users, but HN numbers should be discounted 50-70% for false positives.",
+    "defensibility_score": 6,
+    "defensibility_reasoning": "Moderate defensibility with execution leverage. Near-term moat: (1) Developer workflow lock-in \u2014 once BAML is embedded in a codebase with generated native functions, switching cost is high. (2) Multi-language code generation is hard to replicate (Rust compiler, 6 language targets). (3) Network effects from community-contributed patterns and VSCode extension adoption. However, risks: (1) OpenAI/Anthropic could bundle similar type-safe function calling directly into SDKs. (2) Vercel's AI SDK and LangChain are iterating fast on structured outputs. (3) BAML is a DSL abstraction layer \u2014 if model tool-calling APIs get good enough, the need shrinks. (4) No clear data moat \u2014 prompt patterns are copyable. Defensibility relies on execution speed (staying ahead of SDK improvements) and ecosystem lock-in. If they build a large enough user base before incumbents close the gap, they win via switching costs. If not, they're a feature request. 3-year outlook: uncertain. Needs to evolve into a platform (observability, prompt versioning, testing infra) to outlast commoditization of structured outputs.",
+    "bull_case": "BAML becomes the TypeScript of AI engineering. Just as TypeScript added 10x reliability to JavaScript, BAML does the same for LLM outputs. The wedge (structured data from LLMs) is painful, universal, and unsolved by existing tools. With 1M+ monthly downloads after ~19 months, they've proven product-market fit. The multi-language code generation creates switching costs \u2014 once BAML functions are woven into a codebase, migration is expensive. They can expand into a full AI development platform: prompt versioning, observability, testing infra, team collaboration. Enterprise customers (Amazon testimonial) validate willingness to pay. If they move fast, they own the 'reliable AI outputs' category before OpenAI/Anthropic bundle it into SDKs. Developer tooling has massive TAM and high willingness-to-pay (see Vercel, Sentry). Strong execution (19 releases/90d) suggests competent team.",
+    "bear_case": "BAML is a temporary solution to a problem that model providers will solve natively. OpenAI's function calling and structured outputs are improving rapidly \u2014 within 18 months, most LLMs will have reliable native type-safe outputs, making BAML's core value prop obsolete. It's a thin abstraction layer over LLM APIs with no proprietary data or model moat. LangChain, Vercel AI SDK, and other incumbents can add type-safe prompting as a feature. The 272 open issues vs 8 closed/90d suggests the team is overwhelmed \u2014 can't scale support. HN mentions are inflated by 'BAML' being a common acronym. No clear pricing page or revenue model visible (pricing page exists but details unclear) \u2014 are they monetizing fast enough? DSL risk: developers resist learning new languages unless the ROI is massive. If model APIs get 'good enough', developers won't adopt. Needs to evolve into a platform quickly or get commoditized.",
+    "what_would_change_ranking": "Three signals would materially change the ranking: (1) Confirmed enterprise revenue \u2014 evidence of paying customers at $50K+ ARR would validate defensibility and willingness-to-pay. (2) Observable network effects \u2014 if BAML functions become shareable/reusable across companies (like npm packages), that's a moat. (3) Clear product roadmap showing expansion beyond structured outputs into observability, versioning, testing platform \u2014 this would show they're building a moat before commoditization. Conversely, if OpenAI announces native type-safe function calling with code generation in the next 6 months, BAML's defensibility drops to 3/10. Also, if GitHub issue close rate doesn't improve (currently 8/90d vs 272 open), it signals execution risk.",
+    "key_metrics": {
+      "github_stars": 8212,
+      "avg_daily_stars": 8.66,
+      "commits_90d": 260,
+      "contributor_count": 89,
+      "releases_90d": 19,
+      "npm_downloads_30d": 660036,
+      "pypi_downloads_30d": 375015,
+      "combined_downloads_30d": 1035051,
+      "hn_mentions_90d": 484,
+      "hn_mentions_12mo": 1727,
+      "open_issues": 272,
+      "closed_issues_90d": 8,
+      "last_release_date": "2026-05-08"
+    },
+    "flags": [
+      "HN mentions likely inflated 50-70% due to 'BAML' being common acronym (Bank of America Merrill Lynch)",
+      "Support throughput concern: 272 open issues, only 8 closed in 90d \u2014 team may be overwhelmed",
+      "No visible funding announcements or pricing transparency \u2014 unclear revenue/runway",
+      "Commoditization risk: OpenAI/Anthropic improving native structured outputs could obsolete core value prop within 18 months",
+      "DSL adoption risk: developers resistant to new languages unless ROI is massive",
+      "Median first response time of 0.001 hours (3.6 seconds) is suspiciously low \u2014 may be measurement error"
+    ]
+  },
+  "raw": {
+    "company": {
+      "name": "BAML",
+      "url": "https://boundaryml.com",
+      "github": "BoundaryML/baml",
+      "portfolio": false
+    },
+    "github": {
+      "success": true,
+      "data": {
+        "repo": "BoundaryML/baml",
+        "stars": 8212,
+        "forks": 423,
+        "watchers": 31,
+        "open_issues": 272,
+        "created_at": "2023-10-06T18:57:41Z",
+        "pushed_at": "2026-05-12T16:09:25Z",
+        "avg_daily_stars": 8.66,
+        "commits_90d": 260,
+        "closed_issues_90d": 8,
+        "contributor_count": 89,
+        "median_first_response_hours": 0.001388888888888889,
+        "last_release_date": "2026-05-08T12:24:42Z",
+        "releases_90d": 19,
+        "recent_issues": [
+          {
+            "title": "jsonish partial parser silently drops 4th hex digit of \\uXXXX escapes during streaming",
+            "age_days": 0,
+            "state": "open",
+            "comments": 1,
+            "url": "https://github.com/BoundaryML/baml/issues/3517"
+          }
+        ],
+        "readme_excerpt": "<div align=\"center\">\n<a href=\"https://boundaryml.com?utm_source=github\" target=\"_blank\" rel=\"noopener noreferrer\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"fern/assets/baml-lamb-white.png\">\n    <img src=\"fern/assets/baml-lamb-white.png\" height=\"64\" id=\"top\">\n  </picture>\n</a>\n\n</div>\n\n<div align=\"center\">\n\n[![BAML Version](https://img.shields.io/pypi/v/baml-py?color=006dad&label=BAML%20Version)](https://pypi.org/project/baml-py/)\n\n## BAML: Basically a Made-up Language\n<h4>\n\n[Homepage](https://www.boundaryml.com/) | [Docs](https://docs.boundaryml.com) | [BAML AI Chat](https://www.boundaryml.com/chat) | [Discord](https://discord.gg/BTNBeXGuaS)\n\n\n\n</h4>\n\n\n</div>\n\nBAML is a simple prompting language for building reliable **AI workflows and agents**.\n\nBAML makes prompt engineering easy by turning it into _schema engineering_ -- where you mostly focus on the models of your prompt -- to get more reliable outputs. \nYou don't need to write your whole app in BAML, only the prompts! You can wire-up your LLM Functions in any language of your choice! See our quickstarts for [Python](https://docs.boundaryml.com/guide/installation-language/python), [TypeScript](https://docs.boundaryml.com/guide/installation-language/typescript), [Ruby](https://docs.boundaryml.com/guide/installation-language/ruby) and [Go, and more](https://docs.boundaryml.com/guide/installation-language/rest-api-other-languages).\n\nBAML comes with all batteries included -- with full typesafety, streaming, retries, wide model support, even when they don't support native [tool-calling APIs](#enable-reliable-tool-calling-with-any-model)\n\n**Try BAML**: [Prompt Fiddle](https://www.promptfiddle.com) \u2022 [Interactive App Examples](https://baml-examples.vercel.app/)\n\n\n## The core BAML principle: LLM Prompts are functions\n\nThe fundamental building block in BAML is a function. Every prompt is a function that takes in parameters and returns a type.\n\n```rust\nfunction ChatAgent(message: Message[], tone: \"happy\" | \"sad\") -> string\n```\n\nEvery function additionally defines which models it uses and what its prompt is.\n\n```rust\nfunction ChatAgent(message: Message[], tone: \"happy\" | \"sad\") -> StopTool | ReplyTool {\n    client \"openai/gpt-4o-mini\"\n\n    prompt #\"\n        Be a {{ tone }} bot.\n\n        {{ ctx.output_format }}\n\n        {% for m in message %}\n        {{ _.role(m.role) }}\n        {{ m.content }}\n        {% endfor %}\n    \"#\n}\n\nclass Message {\n    role string\n    content string\n}\n\nclass ReplyTool {\n  response string\n}\n\nclass StopTool {\n  action \"stop\" @description(#\"\n    when it might be a good time to end the conversation\n  \"#)\n}\n```\n\n## BAML Functions can be called from any language\nBelow we call the ChatAgent function we defined in BAML through Python. BAML's Rust compiler generates a \"baml_client\" to access and call them.\n\n```python\nfrom baml_client import b\nfrom baml_client.types import Message, StopTool\n\nmessages = [Message(role=\"assistant\", content=\"How can I help?\")]\n\nwhil",
+        "description": "The AI framework that adds the engineering to prompt engineering (Python/TS/Ruby/Java/C#/Rust/Go compatible)",
+        "language": "Rust"
+      },
+      "error": null,
+      "source": "github"
+    },
+    "hn": {
+      "success": true,
+      "data": {
+        "mentions_90d": 484,
+        "mentions_12mo": 1727,
+        "mentions_all_time": 20807,
+        "top_stories": [
+          {
+            "title": "Show HN: BAML - A new programming language to get structured data from LLMs",
+            "points": 18,
+            "comments": 2,
+            "url": "https://github.com/BoundaryML/baml",
+            "created_at": "2024-03-26T13:09:31Z"
+          },
+          {
+            "title": "Why BAML?",
+            "points": 4,
+            "comments": 2,
+            "url": "https://docs.boundaryml.com/guide/introduction/why-baml",
+            "created_at": "2025-11-05T14:06:44Z"
+          },
+          {
+            "title": "BAML is a language that helps you get structured data from LLMs",
+            "points": 4,
+            "comments": 0,
+            "url": "https://github.com/BoundaryML/baml",
+            "created_at": "2024-11-14T15:55:04Z"
+          }
+        ]
+      },
+      "error": null,
+      "source": "hackernews"
+    },
+    "packages": [
+      {
+        "success": true,
+        "data": {
+          "registry": "pypi",
+          "package": "baml-py",
+          "downloads_30d": 375015,
+          "downloads_90d": 1125045,
+          "version_count": 110,
+          "latest_version": "0.222.0"
+        },
+        "error": null,
+        "source": "pypi"
+      },
+      {
+        "success": true,
+        "data": {
+          "registry": "npm",
+          "package": "@boundaryml/baml",
+          "downloads_30d": 660036,
+          "downloads_90d": 1726291,
+          "version_count": 152,
+          "latest_version": "0.222.0"
+        },
+        "error": null,
+        "source": "npm"
+      }
+    ],
+    "web": {
+      "success": true,
+      "data": {
+        "homepage_text": "Boundary Home Blog Podcast Team Jobs Docs Star on GitHub 2,107 Try BAML online The First Language for Building Agents Typescript made JavaScript 10x more reliable. BAML makes your ai pipelines 10x more reliable. python typescript ruby go other uv add baml-py && uv run baml-cli init Try BAML in your browser Get Started Works with every LLM provider And every language Baaaaaaaaaaml B asically A M ade-Up L anguage Trusted by developers at Complete Development Workflow Discover how BAML transforms AI development in four easy steps Define your prompts functions Yes, Cursor, Claude, already know BAML. Yes, we made a whole VSCode extension for BAML. Test your prompts functions Do it in VSCode, or the editor of your choice. Or in CI/CD with baml-cli test Call your prompts functions from any programming language you love baml-cli generate converts BAML functions to native functions in Python main.py \u2014 Python \u2014 Visual Studio Code main.py main.ts main.rb main.go 1 2 3 4 5 6 from baml_client import b result = b.AnalyzeCodebase(\"<html>...</html>\") print(result) Deploy your Agent Do nothing special for BAML. Since BAML generates native code in your language of choice, you can use it in any way you want. Multi-Cloud Deployment 0 % AWS Lambda Vercel Google Cloud Azure Functions Railway Empower Your AI Development Build AI applications with type safety, generate TypeScript types, and validate your schemas. resume.baml class Resume { name string title string } function ExtractResume(resume: string) -> Resume main.py main.ts main.rb main.go resume = b.ExtractResume(resume) print(resume .education ) Property 'education' does not exist on type 'Resume'. Type-Safe AI Interfaces Define AI interfaces with confidence. Write BAML schemas that generate TypeScript types automatically. Extract the person's name and job title from this resume text... Structured Outputs Get type-safe, validated responses from any LLM. Support for JSON, XML, YAML, and more output formats. \u2705 Testing ResumeParser... \u2705 Testing SentimentAnalyzer... \u2705 Testing CodeReviewer... \u2705 All Agents tested successfully Test Your Agents in CI/CD Test your agents in CI/CD pipelines to ensure they are working as expected. 10:00 10:01 10:02 10:03 10:04 10:00 AM Automatic Retry and Fallback Automatically retry failed requests and provide fallback responses when errors occur. People love BAML And so do agents BAML is amazing. I've used it in Python and Typescript. It's a game changer. Adam Gitzes Amazon Just set up baml for my project, 10/10 experience and much faster than langchain . Jason Fan Finic.ai It's amazing!! Was able to cut down my tokens and time-to-first-token significantly without compromising results . Ray del Vecchio Cerebral Valley BAML is amazing. I've used it in Python and Typescript. It's a game changer. Adam Gitzes Amazon Just set up baml for my project, 10/10 experience and much faster than langchain . Jason Fan Finic.ai It's amazing!! Was able to cut down my tokens and time-to-first-token significantly without compromising results . Ray del Vecchio Cerebral Valley BAML is amazing. I've used it in Python and Typescript. It's a game changer. Adam Gitzes Amazon Just set up baml for my project, 10/10 experience and much faster than langchain . Jason Fan Finic.ai It's amazing!! Was able to cut down my tokens and time-to-first-token significantly without compromising results . Ray del Vecchio Cerebral Valley BAML is amazing. I've used it in Python and Typescript. It's a game changer. Adam Gitzes Amazon Just set up baml for my project, 10/10 experience and much faster than langchain . Jason Fan Finic.ai It's amazing!! Was able to cut down my tokens and time-to-first-token significantly without compromising results . Ray del Vecchio Cerebral Valley BAML is definitely a must have if you want any structured data from LLM; no more BS/long paragraphs describing what the output should be like, it just works!!! Hankel Bao Coldreach.ai The test case and playground is quite literally the BES",
+        "funding_results": [
+          {
+            "title": "How to Secure Pre-Seed Funding for Your Business - Wise",
+            "url": "https://wise.com/us/blog/pre-seed-funding",
+            "snippet": "Wise Business can help you save big time on international payments. Wise is not a bank, but a Money Services Business (MSB) provider and a smart"
+          },
+          {
+            "title": "New BAML trading system aims at \u201cdisillusioned\u201d investors",
+            "url": "https://www.fintechfutures.com/venture-capital-funding/new-baml-trading-system-aims-at-disillusioned-investors",
+            "snippet": "New BAML trading system aims at \u201cdisillusioned\u201d investors. Bank of America Merrill Lynch is seeking to attract long-term investors who have"
+          },
+          {
+            "title": "Types of Startup Funding: Pre-Seed, VC Financing, and More",
+            "url": "https://www.leaderbank.com/blog/types-startup-funding-pre-seed-vc-financing-and-more",
+            "snippet": "Financial institutions like Leader Bank help founders apply for small business loans, which give startups access to a set amount of funding which is"
+          },
+          {
+            "title": "Venture-Funded Banking To Help Innovators for Rapid Growth",
+            "url": "https://www.svb.com/venture-funded/",
+            "snippet": "Startup Banking Pre-Seed & Seed Series A Venture-Funded Series B+ Corporate Banking ... Bank, a division of First-Citizens Bank & Trust Company. Trends & Insights"
+          },
+          {
+            "title": "15 publicly disclosed funding events, Based completes $11.5 million ...",
+            "url": "https://www.panewslab.com/en/articles/019cac8c-dc15-7140-9004-58974775148b",
+            "snippet": "### Funding Weekly Report | 15 publicly disclosed funding events, Based completes $11.5 million Series A funding round led by Pantera Capital. * DeFi sector: Based, a Web trading and payment application built on Hyperliquid infrastructure, completed a $11.5 million Series A round led by Pantera Capital; NASDAQ-listed Solana treasury company DeFi Development made a strategic investment in stablecoin protocol Apyx. * Web3+AI sector: t54 Labs, an AI Agent trust infrastructure startup, completed a $"
+          }
+        ],
+        "community_results": [
+          {
+            "title": "really cool to see BAML on here - Hacker News",
+            "url": "https://news.ycombinator.com/item?id=43713946",
+            "snippet": "really cool to see BAML on here :) 100% align on so much of what you've said here. its really about treating LLMs as functions."
+          },
+          {
+            "title": "BAML \u2013 A language to write LLM prompts as strongly typed functions.",
+            "url": "https://www.reddit.com/r/ProgrammingLanguages/comments/1lr28gh/baml_a_language_to_write_llm_prompts_as_strongly/",
+            "snippet": "BAML (Basically a made-up language) was made because we were tired of storing our prompts in YAML / jinja templates and trying to figure out"
+          },
+          {
+            "title": "r/hackernews - Reddit",
+            "url": "https://www.reddit.com/r/hackernews/best/",
+            "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+          },
+          {
+            "title": "Have you tried BAML? We use it to manage APIs and clients, as well ...",
+            "url": "https://news.ycombinator.com/item?id=44553256",
+            "snippet": "Have you tried BAML? We use it to manage APIs and clients, as well as prompts and types. It gives great low level control over your prompts and logic,"
+          },
+          {
+            "title": "This is an article written by BAML that shows BAML as the best. Also ...",
+            "url": "https://news.ycombinator.com/item?id=40714918",
+            "snippet": "This is an article written by BAML that shows BAML as the best. Also, BAML seems to be a commercial product with no clear pricing."
+          }
+        ],
+        "pricing_results": [
+          {
+            "title": "Simple, transparent pricing - BAML",
+            "url": "https://boundaryml.com/pricing",
+            "snippet": "Simple, transparent pricing. Start for free and upgrade as your team grows. No credit card required. Monthly YearlySave 20%. Free. Perfect for individual"
+          },
+          {
+            "title": "Releases \u00b7 BoundaryML/baml",
+            "url": "https://boundaryml.com/changelog",
+            "snippet": "Premium SupportEnterprise-grade 24/7 support \u00b7 Pricing. Search or jump to... Search code, repositories, users, issues, pull requests... Search. Clear."
+          },
+          {
+            "title": "AI Infrastructure That Scales With You - BAML",
+            "url": "https://boundaryml.com/cloud",
+            "snippet": "Start Free TrialView Pricing. Enterprise-Ready Cloud Features. Everything you need to run AI applications at scale with confidence. Security & Compliance. SOC 2"
+          },
+          {
+            "title": "Untitled",
+            "url": "https://boundaryml.com/terms.html",
+            "snippet": "These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ( \"you\" ), and Gloo Chat Inc."
+          },
+          {
+            "title": "Building a New Programming Language in 2024, pt. 1 | BAML Blog",
+            "url": "https://boundaryml.com/blog/building-a-new-programming-language",
+            "snippet": "# Building a New Programming Language in 2024, pt. An overview of the work that goes into building a new programming language. Here at BoundaryML, we've spent the past year building BAML, a new programming language, with the goal of making it easy for developers to work with LLMs. We wanted to talk a bit about the engineering involved in this process (we'll discuss how we ideate on syntax in a future post). For argument's sake, let's assume we've agreed that building a new language is a good ide"
+          }
+        ]
+      },
+      "error": null,
+      "source": "web"
+    }
+  },
+  "generated_at": "2026-05-12T17:49:27.815075Z"
+}

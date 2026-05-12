@@ -1,0 +1,156 @@
+{
+  "scorecard": {
+    "company": "Parasail",
+    "one_line_pitch": "Global GPU inference network for AI workloads with serverless and dedicated deployment options",
+    "wedge": "Cost-efficient, globally distributed AI inference with claims of 30x cheaper pricing than legacy clouds",
+    "icp": "ML teams and AI application developers seeking alternatives to AWS/GCP/Azure for model inference at scale",
+    "wedge_clarity_score": 6,
+    "wedge_clarity_reasoning": "Parasail positions as a cost-optimized inference platform with global reach, but the wedge is broad rather than surgical. The '30x cheaper' claim and 'no rate limits' are compelling hooks, but the homepage covers image/video, voice agents, search/agents, and text LLMs\u2014four distinct use cases. This suggests they're building horizontal infrastructure rather than solving one acute pain point first. The ICP is clear (ML engineers tired of cloud pricing) but the entry wedge is diffuse. A sharper wedge would be 'voice agent latency for real-time applications' or 'vision model inference for content moderation' rather than trying to be everything.",
+    "pull_signals_score": 2,
+    "pull_signals_reasoning": "Pull signals are extremely weak. No GitHub repo visibility means zero measurable developer engagement\u2014no stars, no commits, no community contributions. HN mentions show a massive red flag: 1,022 all-time mentions but only 90 in the last 12 months and ZERO in the last 90 days. Critically, the top HN stories are all about 'ParaSail Programming Language' from 2014-2019, NOT this company. This is a classic false positive from common-word naming. The actual Parasail inference company has no detectable organic HN traction. No package downloads, no visible community. The $32M Series A (Touring Capital, Kindred Ventures) and earlier $4M seed suggest investor conviction, but this is push capital, not pull demand. Without developer adoption signals, this scores very low.",
+    "defensibility_score": 4,
+    "defensibility_reasoning": "Defensibility trajectory is uncertain. Running a global GPU network requires operational excellence and capital, but Parasail is competing in a crowded inference market (Together AI, Replicate, Modal, Anyscale, plus hyperscalers). The homepage emphasizes orchestration, routing, and cost\u2014but these are table stakes, not moats. Network effects are weak; switching costs are low if they're just offering API endpoints. The '500B+ tokens served daily' metric suggests scale, but scale alone isn't defensible without stickiness. Potential moats: (1) if they're aggregating spot capacity from 15+ countries with sophisticated routing, that's operationally hard to replicate; (2) if they build proprietary model optimization or caching layers; (3) if they lock in enterprise customers with dedicated deployments. But without visibility into technical depth or customer retention, this looks like a margin-compression race. The DePIN angle (decentralized physical infrastructure) hinted in the seed round tweet could be interesting if they're crowdsourcing GPUs, but the current site reads like a managed cloud service.",
+    "bull_case": "If Parasail has cracked the economics of global GPU arbitrage and built a differentiated orchestration layer, they could capture massive share from teams frustrated with hyperscaler pricing. The $32M Series A from credible VCs suggests validated revenue or customer traction not visible in public signals. If they're winning enterprise deals (voice agents for call centers, vision inference for security/moderation platforms), the lack of developer community noise might just mean they're selling top-down. The 'no rate limits, no quotas' positioning could be a wedge for high-volume users burned by OpenAI/Anthropic throttling. If the DePIN model creates a sustainable cost advantage by tapping underutilized GPU capacity globally, they could build a moat through supply-side network effects.",
+    "bear_case": "Zero visible developer traction despite being in market long enough to raise Series A is alarming. No GitHub presence means no open-source credibility, no community evangelism, no ecosystem integrations. The inference space is brutally competitive\u2014Replicate, Modal, Together, and hyperscalers all have better brand recognition and developer mindshare. The '30x cheaper' claim is likely cherry-picked or temporary; inference pricing is commoditizing fast as Llama 4, DeepSeek R1, and other open models drive margins to zero. Without a technical moat (custom silicon, novel optimization, or proprietary models), Parasail is just aggregating commodity GPUs and competing on price\u2014a race to the bottom. The broad positioning (vision, voice, agents, text) suggests they haven't found product-market fit in any single vertical. Raised $42M total but burning through capital on infrastructure before proving demand.",
+    "what_would_change_ranking": "Open-sourcing client SDKs or orchestration tools to build GitHub presence and developer trust. Publishing case studies with named customers showing real cost savings and performance wins. Demonstrating measurable pull: organic HN discussion, package downloads, community tutorials, or OSS integrations. Narrowing focus to one wedge (e.g., 'real-time voice agents') and dominating that niche before expanding. Transparent pricing calculator showing actual cost comparisons. Evidence of customer retention or net revenue retention above 120%. Technical blog posts showing proprietary optimizations (model quantization, custom routing algorithms, GPU utilization breakthroughs) that justify defensibility.",
+    "key_metrics": {
+      "hn_mentions_90d": 0,
+      "hn_mentions_12mo": 90,
+      "github_stars": null,
+      "commits_90d": null,
+      "downloads_30d": null,
+      "tokens_served_daily_claimed": "500B+",
+      "funding_total": "$42M",
+      "funding_latest": "$32M Series A"
+    },
+    "flags": [
+      "No GitHub repository visibility\u2014zero measurable developer engagement",
+      "HN mentions are false positives from ParaSail programming language (2014-2019), not this company",
+      "Zero HN mentions in last 90 days despite Series A announcement",
+      "No package downloads or community presence detected",
+      "Broad positioning across 4+ use cases suggests unclear wedge",
+      "Crowded inference market with well-funded competitors",
+      "High capital raise relative to visible traction signals potential burn risk",
+      "Common-word name ('Parasail') creates brand confusion and measurement issues"
+    ]
+  },
+  "raw": {
+    "company": {
+      "name": "Parasail",
+      "url": "https://www.parasail.io",
+      "github": null,
+      "portfolio": false
+    },
+    "github": {
+      "success": false,
+      "data": null,
+      "error": "no repo configured",
+      "source": "github"
+    },
+    "hn": {
+      "success": true,
+      "data": {
+        "mentions_90d": 0,
+        "mentions_12mo": 90,
+        "mentions_all_time": 1022,
+        "top_stories": [
+          {
+            "title": "ParaSail Programming Language: parallel programming language",
+            "points": 97,
+            "comments": 19,
+            "url": "http://parasail-lang.org/",
+            "created_at": "2019-02-09T12:26:40Z"
+          },
+          {
+            "title": "Systems Programming in Distributed, Multicore World with Go, Rust, and Parasail",
+            "points": 51,
+            "comments": 9,
+            "url": "https://docs.google.com/viewer?a=v&pid=forums&srcid=MTM1Nzg0MDEwNzUyNTU3MjA2MDkBMTA5MjQ4NzMyOTM0MzU0MTc0OTEBRmM0Unk2OHZlODhKATAuMQEBdjI",
+            "created_at": "2014-11-08T19:06:31Z"
+          },
+          {
+            "title": "ParaSail:A Pointer-Free Pervasively-Parallel Language for Irregular Computations",
+            "points": 13,
+            "comments": 1,
+            "url": "http://programming-journal.org/2019/3/7/",
+            "created_at": "2019-02-09T12:34:36Z"
+          }
+        ]
+      },
+      "error": null,
+      "source": "hackernews"
+    },
+    "packages": [
+      {
+        "success": false,
+        "data": null,
+        "error": "no known package mappings",
+        "source": "packages"
+      }
+    ],
+    "web": {
+      "success": true,
+      "data": {
+        "homepage_text": "Home About Pricing Docs Blogs Careers Sign In Sign Up No limits. No contracts. Priced right. The world\u2019s fastest, most cost-efficient AI inference network. No quotas, no lock-ins, and up to 30\u00d7 cheaper than legacy cloud. Get started with free credits Run any model on hugging face Scale from 0 to 10B+ tokens in hours No rate limits, no quotas 30 x Cheaper than legacy clouds 15 + Countries hosting GPUs Day 0 Support for frontier LLMs 500 B+ Tokens served daily Orchestrating the Earth\u2019s GPU resources Scale Go from prototype to planetary scale in minutes, with no long-term commitments Reach Run workloads anywhere in the world through our unified global GPU network Diversity Pick the right hardware for your needs, from top performance to low-cost efficiency One platform for every way AI sees, speaks, and thinks. Image & Video Understanding Transform raw visuals into instant intelligence through distributed inference built for scale and precision. Image & Video Understanding Real-time visual intelligence at scale: Turn images and videos into actionable insights like object detection, activity recognition, and scene understanding \u2014 fast enough for live analytics, moderation, or monitoring. Serverless AI pipelines for vision: Deploy, scale, and tune vision workflows declaratively. From frame decoding to multimodal embeddings, Parasail\u2019s planetary infrastructure automatically optimizes for cost, latency, and geography. Flexible, model-agnostic performance: Run any vision or multimodal model; Parasail handles orchestration, routing, and caching across 25+ global clouds for peak performance and transparency. Voice Agents Run natural, real-time voice experiences on colocated models engineered for ultra-low latency and cost. Voice Agents Conversational AI that feels human: Enable emotionally rich, real-time dialogue for assistants, companions, and agents with consistent sub-500 ms latency and expressive control over tone, emotion, and voice. Custom voice pipelines, not APIs: Combine best-in-class models like Whisper, Resemble, and DeepSeek into a unified STT \u2192 LLM \u2192 TTS stack built for streaming, voice cloning, and multilingual interaction. Optimized for every use case: Support customer service systems that respond instantly, creative tools that speak with personality, and interactive companions that think and talk naturally at a fraction of the cost of legacy APIs. Search & Agents Deploy agentic systems on a global inference network that manages routing, caching, and orchestration to stay fast, reliable, and affordable. Search & Agents Autonomous reasoning at scale: Power intelligent chat and research agents that can plan, search, and synthesize across billions of calls with full observability and control. Composable, inference-aware orchestration: Build complex multi-model chains (retrieval, synthesis, browser control, reflection) that scale seamlessly across Parasail\u2019s global GPU network. Open models, transparent economics: Use the latest open-weight LLMs like DeepSeek, Qwen, or Llama for results that match proprietary APIs at a fraction of the cost. Text LLMs Scale language workflows that deliver fast, factual, and reproducible results at production scale. \u200d Text LLMs Long-context, grounded generation: Combine streaming retrieval and memory with verification so long documents, pipelines, and multi-step synthesis stay accurate and auditable. Evaluation and iteration as part of the pipeline: Run large LLM evaluations, instruction tuning, and synthetic data generation with versioned models, reproducible prompts, and metrics baked into CI. Inference-as-code and model control: Declare tokenization, retrieval, prompting, and fine-tune steps as code so experiments move to production with identical behavior and transparent economics. Deploy your way. Serverless Run any model instantly with pay-per-token pricing and zero setup \u2014 ideal for quick experiments or production APIs that auto-scale on demand. Try it out Learn more Dedicated Serverless ",
+        "funding_results": [
+          {
+            "title": "Parasail has successfully raised $4M in seed funding. This new ...",
+            "url": "https://x.com/parasailnetwork/status/1795455239270596900",
+            "snippet": "Parasail has successfully raised $4M in seed funding. This new milestone will enhance DePIN service levels and user experience through our"
+          },
+          {
+            "title": "Parasail Raises $32mn for AI Supercloud Tech | Traced.tech posted ...",
+            "url": "https://www.linkedin.com/posts/traced-tech_parasail-has-raised-32mn-for-its-series-activity-7450231914801725440-rmSR",
+            "snippet": "Parasail has raised $32mn for its Series A round, the proceeds of which will go towards accelerating its go-to-market efforts,"
+          },
+          {
+            "title": "Parasail has raised $32 million in a Series A round to expand its AI ...",
+            "url": "https://www.instagram.com/p/DXJ_IkGkVLA/",
+            "snippet": "Parasail raised $32 million in a Series A co-led by Touring Capital and Kindred Ventures, with Samsung NEXT, Flume Ventures, and Banyan Ventures"
+          },
+          {
+            "title": "Seed Round - Parasail - Crunchbase Funding Round Profile",
+            "url": "https://www.crunchbase.com/funding_round/parasail-seed--109a13f7",
+            "snippet": "Lead Investors ... Protocol Labs Protocol Labs is a research, development, and deployment lab for network protocols."
+          },
+          {
+            "title": "Parasail - 2026 Funding Rounds & List of Investors - Tracxn",
+            "url": "https://tracxn.com/d/companies/parasail/__zYl4AJXdvwKR1v44iPXby8wc57jpEXdYNsm6KakO99s/funding-and-investors",
+            "snippet": "One was Series A round of $32M from Investors like Touring Capital and Kindred Ventures and the other was Seed round of $10M from Investors like"
+          }
+        ],
+        "community_results": [
+          {
+            "title": "r/hackernews - Reddit",
+            "url": "https://www.reddit.com/r/hackernews/",
+            "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+          },
+          {
+            "title": "Teen Model Plunges to Her Death After Unbuckling Her Harness in ...",
+            "url": "https://www.reddit.com/r/worldnewsvideo/comments/1l1hykv/teen_model_plunges_to_her_death_after_unbuckling/",
+            "snippet": "The video does a strangely good job of showing how normally safe you are in a parasail. ... According to Iran's Student News Network, the"
+          },
+          {
+            "title": "2023-04-23 front - Hacker News",
+            "url": "https://news.ycombinator.com/front?day=2023-04-23",
+            "snippet": "1. Lego breaks ground on first US manufacturing facility (manufacturingdive.com) \u00b7 2. iOS 17 app sideloading might only be available in Europe ("
+          },
+          {
+            "title": "2012-02-08 front - Hacker News",
+            "url": "https://news.ycombinator.com/front?day=2012-02-08&birth=what_",
+            "snippet": "Hacker News \u00b7 1. We are sorry (path.com) \u00b7 2. Roger Boisjoly dies at 73; engineer tried to halt Challenger launch (latimes.com) \u00b7 3. Advanced Data"
+          },
+          {
+            "title": "2023-02-23 front - Hacker News",
+            "url": "https://news.ycombinator.com/front?day=2023-02-23",
+            "snippet": "1. Reverse engineering a mysterious UDP stream in my hotel (2016) (gkbrk.com) \u00b7 2. Sam Zeloof and Jim Keller start a new semiconductor fab ("
+          }
+        ],
+        "pricing_results": []
+      },
+      "error": null,
+      "source": "web"
+    }
+  },
+  "generated_at": "2026-05-12T17:50:58.028653Z"
+}

@@ -1,0 +1,190 @@
+{
+  "scorecard": {
+    "company": "Tigris Data",
+    "one_line_pitch": "S3-compatible object storage with zero egress fees and AI-native features like zero-copy forks and snapshots",
+    "wedge": "Bottomless object storage for AI workloads with zero egress fees and S3 compatibility",
+    "icp": "AI/ML teams and cost-conscious developers running distributed workloads who face high egress bills from AWS/GCP",
+    "wedge_clarity_score": 7,
+    "wedge_clarity_reasoning": "Clear wedge around zero egress fees attacking AWS's egress profit center ($0 egress vs AWS's ~$0.09/GB). Strong specific positioning for AI workloads (agent checkpointing, training data, inference serving). S3 compatibility removes switching friction. However, 'developer data platform' is vague and the product has pivoted significantly (originally a document database on FoundationDB per 2022 HN posts, now object storage). The AI-agent angle (Agent Shell, per-agent forks) is sharp but represents a recent pivot to chase the AI wave rather than organic product evolution.",
+    "pull_signals_score": 4,
+    "pull_signals_reasoning": "Limited organic pull signals. GitHub presence has moved across orgs during product pivot, reducing discoverability and limiting external visibility into development activity. NPM package @tigrisdata/core shows 2,590 downloads/30d and 5,737/90d - modest for a 2+ year old company. HN engagement is weak: only 2 mentions in 90 days, 18 in 12 months. The 71 all-time mentions are heavily back-loaded to 2022 launch (58-point Show HN, 75-point FoundationDB post). Recent activity is minimal. Top HN story in dataset is unrelated (serverless-postgres). No visible community momentum on Reddit/Discord from search results. Pricing went live in July 2024 per blog, suggesting very recent GTM shift from beta. These are push signals (funded marketing, partnerships with Fly.io) not organic pull.",
+    "defensibility_score": 5,
+    "defensibility_reasoning": "Moderate defensibility with clear risks. Technical moat is thin - S3-compatible object storage is commoditized (Cloudflare R2, Backblaze B2, Wasabi all offer similar value props). Zero egress is table stakes now, not differentiation. Advanced features (zero-copy forks, snapshots, webhooks) are legitimately hard to build but replicable by well-funded competitors. Team pedigree is strong (built Uber's storage platform per funding announcements) but this is infrastructure, not a network effect business. $40M total raised ($15M seed from a16z, $25M Series A from Spark) buys runway but also raises bar - they're competing against AWS/GCP/Azure who can price to zero. FoundationDB foundation mentioned in 2022 but unclear if still relevant given product pivot. Lock-in comes from S3 compatibility making switching easy both directions - a double-edged sword. The AI-agent primitives (per-agent sandboxes, coordination) could create stickiness if that market materializes, but unproven.",
+    "bull_case": "Founders built Uber's storage infrastructure at massive scale - deep domain expertise. $40M from tier-1 VCs (a16z, Spark) validates team and market timing. Zero egress fees are a genuine pain point for AI teams with TB-scale training datasets - margins improve dramatically vs AWS. S3 compatibility means zero switching cost to try, perfect wedge for land-and-expand. AI-native features (agent forks, checkpointing) are forward-looking and hard to replicate quickly. Already serving 1M+ buckets and 20PB+ storage per homepage, suggesting real adoption. Partnerships with Fly.io and others provide distribution. If AI workloads continue exploding and multi-cloud/distributed becomes the norm, Tigris is positioned at the right place/time.",
+    "bear_case": "GitHub presence has moved across orgs during product pivot - lower discoverability than peers and a concern for transparency around open-source claims. Product has pivoted dramatically (FoundationDB document DB in 2022 \u2192 object storage in 2024), suggesting lack of PMF. Download and engagement metrics are anemic for a 2+ year old company with $40M raised. Crowded category - competing against Cloudflare R2 (similar value prop, bigger distribution), Backblaze B2, Wasabi, and AWS/GCP who can price aggressively. Zero egress is no longer unique. S3 compatibility means no lock-in and commoditization pressure. HN mentions collapsing (71 all-time \u2192 18 last year \u2192 2 last 90 days) suggests hype cycle ended. Recent pivot to 'AI-native' and agent primitives feels like chasing narrative rather than organic demand. Homepage stats (1M+ buckets, 20PB+) are unverified and could include free-tier vanity metrics. Billing only enabled July 2024 - revenue is extremely early.",
+    "what_would_change_ranking": "Visibility into GitHub activity (if repo is truly open-source), actual revenue numbers post-billing launch, download trajectory showing acceleration not stagnation, concrete case studies from AI teams at scale (not just Fly.io partnership marketing), evidence that AI-agent primitives have real adoption beyond landing page copy, retention cohorts showing users stick after trying, and defensive moat beyond pricing (network effects, data gravity, proprietary indexing). A credible path to competing against AWS margins at scale would significantly upgrade defensibility score.",
+    "key_metrics": {
+      "hn_mentions_90d": 2,
+      "hn_mentions_12mo": 18,
+      "downloads_30d": 2590,
+      "downloads_90d": 5737,
+      "version_count": 82,
+      "funding_total": "$40M",
+      "claimed_storage": "20PB+",
+      "claimed_buckets": "1M+"
+    },
+    "flags": [
+      "GitHub presence has moved across orgs during product pivot; lower discoverability than peers and limited visibility into development activity",
+      "Product pivot from document database (2022) to object storage (2024) suggests PMF struggle",
+      "Download metrics are weak (2.6K/month) for company age and funding level",
+      "HN engagement collapsing: 71 all-time \u2192 18 last 12mo \u2192 2 last 90d",
+      "Billing only enabled July 2024 - revenue extremely early",
+      "Crowded commodity market (R2, B2, Wasabi) with limited differentiation",
+      "S3 compatibility enables churn both directions - no lock-in",
+      "AI-agent narrative appears to be recent marketing pivot, not organic evolution",
+      "Homepage metrics (1M+ buckets, 20PB) are unverified and potentially inflated by free tier"
+    ]
+  },
+  "raw": {
+    "company": {
+      "name": "Tigris Data",
+      "url": "https://www.tigrisdata.com",
+      "github": "tigrisdata/tigris",
+      "portfolio": false
+    },
+    "github": {
+      "success": false,
+      "data": null,
+      "error": "repo lookup returned 301",
+      "source": "github"
+    },
+    "hn": {
+      "success": true,
+      "data": {
+        "mentions_90d": 2,
+        "mentions_12mo": 18,
+        "mentions_all_time": 71,
+        "top_stories": [
+          {
+            "title": "Show HN: Serverless Postgres",
+            "points": 159,
+            "comments": 61,
+            "url": "https://github.com/kiwicopple/serverless-postgres",
+            "created_at": "2024-05-29T16:54:19Z"
+          },
+          {
+            "title": "Skipping the boring parts of building a database using FoundationDB",
+            "points": 75,
+            "comments": 41,
+            "url": "https://blog.tigrisdata.com/building-a-database-using-foundationdb",
+            "created_at": "2022-09-21T21:25:33Z"
+          },
+          {
+            "title": "Show HN: Tigris \u2013 open-source developer data platform for your next app",
+            "points": 58,
+            "comments": 24,
+            "url": "https://docs.tigrisdata.com/quickstart",
+            "created_at": "2022-09-20T17:47:27Z"
+          }
+        ]
+      },
+      "error": null,
+      "source": "hackernews"
+    },
+    "packages": [
+      {
+        "success": true,
+        "data": {
+          "registry": "npm",
+          "package": "@tigrisdata/core",
+          "downloads_30d": 2590,
+          "downloads_90d": 5737,
+          "version_count": 82,
+          "latest_version": "1.3.0"
+        },
+        "error": null,
+        "source": "npm"
+      }
+    ],
+    "web": {
+      "success": true,
+      "data": {
+        "homepage_text": "About Docs Blog Pricing Partners Community Sign in Get started The storage cloud for devs & agents Bottomless object storage with zero egress fees. Feed training jobs, serve inference, and checkpoint agent state \u2014 all over a familiar S3 API. Get started View documentation 99.99% availability 1M+ buckets 20PB+ storage 10B+ objects @tigrisdata/agent-shell \u2014 ~/agent-shell Shell CLI SDK Tigris Agent Shell A virtual bash environment backed by Tigris object storage. booting shell\u2026 Agent Shell CLI SDK Skills Trusted by The Product Storage that gets out of your way Tigris\u00ae is globally redundant storage, built for the new cloud. Capacity \u221e Bottomless storage No per-account limits. No per-region limits. Just scale. Pricing $0/GB Zero egress fees Read as often as you need, from any region. No bandwidth bills. Compatibility s3:// Speaks S3 natively Point boto3, aws-cli, rclone, PyTorch at Tigris. Swap the endpoint, keep the code. Platform Capabilities Storage primitives for agents and teams The building blocks you already know from S3 \u2014 plus the ones you wish it had. Zero-copy forks, point-in-time snapshots, object events, and fine-grained IAM, built for the new cloud. Placement Geo-redundant storage Pick single-region, multi-region, or global placement per bucket. Keep data close to users and redundant across regions without running your own replication. Lifecycle Storage tiers Standard, infrequent, and archive tiers with automatic lifecycle rules. Same API, priced for your data's access pattern. STANDARD INFREQUENT ARCHIVE Experimentation Zero-copy forks Fork a production bucket instantly. Test migrations, run experiments, or give each agent its own sandbox \u2014 with no storage duplication. Time travel Snapshots Whole-bucket snapshots. Roll back to any precise second to recover from a bad write, a bug, or a hallucinated agent. 14:02 NOW Coordination Webhooks Webhooks fire the moment an object is created, updated, or deleted. Wire up data pipelines without polling. Access Fine-grained IAM policies S3-compatible IAM plus per-bucket, per-prefix, and per-key policies. Scope credentials down to individual agents. read:objects write:prefix/* admin:users Distribution Custom domains Serve buckets from your own domain with managed TLS. Keep branding consistent across public assets and CDNs. https:// cdn.tigris.dev TLS Delegation Presigned URLs Time-scoped, scope-limited URLs for direct upload and download. Let clients hit storage without ever touching your credentials. 5m Geo-redundant storage Placement Pick single-region, multi-region, or global placement per bucket. Keep data close to users and redundant across regions without running your own replication. Storage tiers Lifecycle Standard, infrequent, and archive tiers with automatic lifecycle rules. Same API, priced for your data's access pattern. STANDARD INFREQUENT ARCHIVE Zero-copy forks Experimentation Fork a production bucket instantly. Test migrations, run experiments, or give each agent its own sandbox \u2014 with no storage duplication. Snapshots Time travel Whole-bucket snapshots. Roll back to any precise second to recover from a bad write, a bug, or a hallucinated agent. 14:02 NOW Webhooks Coordination Webhooks fire the moment an object is created, updated, or deleted. Wire up data pipelines without polling. Fine-grained IAM policies Access S3-compatible IAM plus per-bucket, per-prefix, and per-key policies. Scope credentials down to individual agents. read:objects write:prefix/* admin:users Custom domains Distribution Serve buckets from your own domain with managed TLS. Keep branding consistent across public assets and CDNs. https:// cdn.tigris.dev TLS Presigned URLs Delegation Time-scoped, scope-limited URLs for direct upload and download. Let clients hit storage without ever touching your credentials. 5m For agents Built for Agent Scale Storage made for running millions of agents Forks Workspaces Checkpoints Coordination Forks Give each agent its own copy-on-write clone of a shared datas",
+        "funding_results": [
+          {
+            "title": "Tigris Data Seed (2023) - StartupHub.ai",
+            "url": "https://www.startuphub.ai/investment_rounds/tigris-data-seed-2023",
+            "snippet": "Tigris Data raised $15000000 in funding round in 2023."
+          },
+          {
+            "title": "Posts tagged \"Funding\" | Tigris Object Storage - Tigris Data",
+            "url": "https://www.tigrisdata.com/blog/tags/funding/",
+            "snippet": "Tigris Raises $25M to Build the Storage Layer for the AI Era \u00b7 Announcing Tigris Seed Round led by Andreessen Horowitz."
+          },
+          {
+            "title": "Tigris raises $25M for AI-native storage cloud | Tigris Data posted on the topic | LinkedIn",
+            "url": "https://www.linkedin.com/posts/tigrisdata_big-news-at-tigris-weve-raised-a-25m-activity-7382095533982564352-vfFU",
+            "snippet": "Tigris Data, a distributed data storage startup, has raised $25 million in a Series A round to take on \"Big Cloud.\" Founded by the team behind Uber's storage platform, Tigris is building an AI-native storage platform designed for modern, distributed AI workloads. In September, the Microsoft Bay Area team hosted Accelerate Together, where leaders explored how AI, cloud, and strategic partnerships are reshaping startup innovation, from autonomous agents like Devin by Cognition to powerful enterpri"
+          },
+          {
+            "title": "Tigris Data Raises $25M for Distributed AI Storage Solution - News and Statistics - IndexBox",
+            "url": "https://www.indexbox.io/blog/tigris-data-secures-25m-series-a-for-ai-storage-platform/",
+            "snippet": "Tigris Data Secures $25M Series A for AI Storage Platform. # Tigris Data Secures $25M Series A for AI Storage Platform. *Distributed data storage startup Tigris Data has raised a $25 million Series A round, as first reported by TechCrunch. \"Modern AI workloads and AI infrastructure are choosing distributed computing instead of big cloud,\" Ovais Tariq, co-founder and CEO of Tigris Data, told TechCrunch. Tigris, founded by the team that developed Uber's storage platform, is building a network of l"
+          },
+          {
+            "title": "This distributed data storage startup wants to take on Big Cloud",
+            "url": "https://techcrunch.com/2025/10/09/this-distributed-data-storage-startup-wants-to-take-on-big-cloud/",
+            "snippet": "To do all of that, Tigris recently raised a $25 million Series A round that was led by Spark Capital and saw participation from existing"
+          }
+        ],
+        "community_results": [
+          {
+            "title": "Timescale Is Now TigerData - Hacker News",
+            "url": "https://news.ycombinator.com/item?id=44300064",
+            "snippet": "> Tigris means tiger. I'm pretty sure Tigris Data is named after the Tigris river (https://en.wikipedia.org/wiki/Tigris), and the name does not mean \"tiger\"."
+          },
+          {
+            "title": "I moved on from Backblaze to Tigris Data : r/Backup - Reddit",
+            "url": "https://www.reddit.com/r/Backup/comments/1s07prd/i_moved_on_from_backblaze_to_tigris_data/",
+            "snippet": "I looked into the OP and Tigris Data. Both appear legitimate to me. Tigris storage pricing is $0.004/GB/MO. ($4/TB/Mo) if you opt for"
+          },
+          {
+            "title": "Small Objects, Big Gains: Benchmarking Tigris Against AWS S3 and Cloudflare R2 | Hacker News",
+            "url": "https://news.ycombinator.com/item?id=44953971",
+            "snippet": "| |  | | --- | | Small Objects, Big Gains: Benchmarking Tigris Against AWS S3 and Cloudflare R2 (tigrisdata.com) | | 11 points by nethunters 8 months ago | hide | past | favorite | 5\u00a0comments |     |  |  | | --- | --- | | |  | | --- | | lukevp 8 months ago  )   This makes no sense. They ran the tests from a \u201cneutral cloud provider\u201d, as if someone is using AWS S3 to store their Azure and GCP data?? AWS is insanely faster when the compute is in the same region as the storage. There is of course go"
+          },
+          {
+            "title": "Switching from S3 to Tigris on Fly.io - Hacker News",
+            "url": "https://news.ycombinator.com/item?id=39360870",
+            "snippet": "The author compares performance of this provider Tigris with AWS S3 and how the latencies are 300ms and 1s respectively for the test image."
+          },
+          {
+            "title": "Tigris \u2013 open-source developer data platform for your next app",
+            "url": "https://news.ycombinator.com/item?id=32915227",
+            "snippet": "Tigris is the first truly open source developer data platform with a simple yet powerful, unified API that spans search, event streaming,"
+          }
+        ],
+        "pricing_results": [
+          {
+            "title": "Pricing | Tigris",
+            "url": "https://www.tigrisdata.com/pricing/",
+            "snippet": "|  | Standard | Infrequent Access | Archive | Archive Instant Retrieval |. | Data Storage | $0.02/GB/month | $0.01/GB/month | $0.004/GB/month | $0.004/GB/month |. | Data Retrieval | Free | $0.01/GB | Free | $0.03/GB |. A minimum storage retention charge applies to objects stored in the Infrequent Access, Archive, and Archive Instant Retrieval tiers. For example, objects in the Infrequent Access tier are subject to a minimum storage duration of 30 days. When you restore data from the Archive tier"
+          },
+          {
+            "title": "Billing | Tigris Object Storage Documentation",
+            "url": "https://www.tigrisdata.com/docs/account-management/billing/",
+            "snippet": "# Billing. Tigris follows a usage-based pricing. model, so you are only charged for the resources you use. are generated at the end of each billing period and are due upon issuance. are required to have a valid payment card on file, which will be charged. Charges are calculated based on your. You can view and download your invoices directly from. Supported payment methods are listed below. You can easily monitor your organization\u2019s usage and spending in the Dashboard:. Your invoices, receipts, a"
+          },
+          {
+            "title": "Compare to other providers | Tigris Object Storage Documentation",
+            "url": "https://www.tigrisdata.com/docs/pricing/compare/",
+            "snippet": "Tigris pricing stands out in workloads with significant data transfer. Zero egress fees and zero replication fees mean your bill stays predictable as usage"
+          },
+          {
+            "title": "Tigris and egress billing - Tigris - Tigris Discord Server - Tigris Data",
+            "url": "https://community.tigrisdata.com/m/1463624590730465281",
+            "snippet": "The pricing listed in Pricing | Tigris Object Storage Documentation is the source of truth, and what you are charged is based on this pricing, irrespective of"
+          },
+          {
+            "title": "We're enabling billing for Tigris in July | Tigris Object Storage",
+            "url": "https://www.tigrisdata.com/blog/enabling-billing-for-tigris-in-july/",
+            "snippet": "Check out our pricing page for details on the pricing structure. The beta tag will stay, but we'll offer the same support expected from a"
+          }
+        ]
+      },
+      "error": null,
+      "source": "web"
+    }
+  },
+  "generated_at": "2026-05-12T17:47:47.472301Z"
+}

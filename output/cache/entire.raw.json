@@ -1,0 +1,118 @@
+{
+  "company": {
+    "name": "Entire",
+    "url": "https://entire.io",
+    "github": null,
+    "portfolio": false
+  },
+  "github": {
+    "success": false,
+    "data": null,
+    "error": "no repo configured",
+    "source": "github"
+  },
+  "hn": {
+    "success": true,
+    "data": {
+      "mentions_90d": 1027,
+      "mentions_12mo": 3011,
+      "mentions_all_time": 13415,
+      "top_stories": [
+        {
+          "title": "Launching in 2015: A Certificate Authority to Encrypt the Entire Web",
+          "points": 2019,
+          "comments": 461,
+          "url": "https://www.eff.org/deeplinks/2014/11/certificate-authority-encrypt-entire-web",
+          "created_at": "2014-11-18T15:18:36Z"
+        },
+        {
+          "title": "Stripe has decided to nuke my entire business",
+          "points": 1624,
+          "comments": 678,
+          "url": "https://news.ycombinator.com/item?id=32854528",
+          "created_at": "2022-09-15T16:33:38Z"
+        },
+        {
+          "title": "Show HN: I made a site where you practice typing by retyping entire novels",
+          "points": 1589,
+          "comments": 378,
+          "url": "http://typelit.io",
+          "created_at": "2020-10-06T11:37:53Z"
+        }
+      ]
+    },
+    "error": null,
+    "source": "hackernews"
+  },
+  "packages": [
+    {
+      "success": false,
+      "data": null,
+      "error": "no known package mappings",
+      "source": "packages"
+    }
+  ],
+  "web": {
+    "success": true,
+    "data": {
+      "homepage_text": "Company Vision Blog Dashboard Sign in Announcing Entire with $60m seed round Every commit tells a story. Now you can read it. Entire CLI hooks into your git workflow to capture AI agent sessions on every push. Sessions are indexed alongside commits, a searchable record of how code was written. curl curl -fsSL https://entire.io/install.sh | bash Open source · MIT licensed 4.3K entire / contributions Capture context Works where you already operate Entire CLI hooks into your existing tools and workflow. No context switching, no new interfaces to learn. Terminal Re-run my-repository % Setup the CLI One command to set up Entire CLI in your repository. Works with any git-based project, fully open source. Agent Status Claude Code Supported Gemini CLI Supported Cursor Supported OpenCode Supported GitHub Copilot CLI Supported OpenAI Codex Preview Work with any agent Claude Code, Gemini CLI, OpenCode, Cursor, GitHub Copilot CLI, & FactoryAI are supported today. More integrations coming soon. Sessions sync with commits Every conversation is captured and linked to your git history creating a checkpoint automatically. No extra steps required. Fix flaky TestHTTPServer race condition in parallel mode b68df0d49d44 · 2d ago · dipree · Claude Code Add webhook retry logic with exponential backoff f92e4d1c88a7 · 3d ago · Soph · Gemini Expand t.Parallel exception to mention t.Setenv and t.Chdir a3c17e8f02b1 · 5d ago · dipree · Claude Code Migrate session storage from SQLite to Postgres adapter e71a0b3c5f92 · 6d ago · Soph · Gemini Add CLI flag --dry-run to preview checkpoint without committing c4d82f6a17e3 · 1w ago · dipree · Claude Code Refactor hook runner to support async pre-push middleware d59f1a4e83c0 · 1w ago · Soph · Gemini View your entire history Search, view, and understand the intent behind the code that was written. Share context with your team. Why Entire Never start from zero Entire creates a checkpoint for every commit: the code change paired with the agent session that produced it. Context that's attached, not archived. 01 \"Why did we write it this way?\" Every commit gets a checkpoint: the code change paired with the full agent session that produced it. Look at any change and the reasoning is right there. 02 \"Where does all this context actually go?\" Nowhere new. Checkpoints are stored directly in your git history. No hosted service, no external database. Just your repo, your workflow, your data. 03 \"Why does the agent keep making the same mistakes?\" Because it starts every session from zero. Checkpoints give agents the full history of how your codebase was built. Not just the code, but the decisions behind it. Start capturing your intent Entire is open source and free to use. Install it once, and never lose the context behind your commits again. curl curl -fsSL https://entire.io/install.sh | bash Made with 🏃 on 🌎 © 2026 Entire Inc. Product CLI Documentation Company Blog Vision Company Newsroom Brand Legal Privacy Policy Cookie Policy Terms of Service Connect GitHub Discord X Bluesky LinkedIn YouTube Company Vision Blog",
+      "funding_results": [
+        {
+          "title": "Series A, B, C, D, and E Funding: How It Works | Startups.com",
+          "url": "https://www.startups.com/articles/series-funding-a-b-c-d-e",
+          "snippet": "(Some startups may raise pre-seed funding in order to get them to the point where they can raise a traditional seed round, but not every company does that.). Seed funding (or seed financing, seeding round, etc.) may be raised from family and friends, angel investors, incubators, and venture capital firms that focus on early-stage startups. On the other hand, some startups decide that they're not interested in raising more money — that the level they reach with seed money is good enough or that t"
+        },
+        {
+          "title": "Fundraising Timeline: From Seed to Series A - Phoenix Strategy Group",
+          "url": "https://www.phoenixstrategy.group/blog/fundraising-timeline-from-seed-to-series-a",
+          "snippet": "# Fundraising Timeline: From Seed to Series A. The journey from seed funding to Series A is tough but achievable with the right plan. Seed funding helps validate your idea, while Series A focuses on scaling your business. Fewer than 10% of seed-funded startups secure Series A funding. Start preparing early, focus on clear metrics, and align with investor expectations to improve your chances. ## Timeline and Key Milestones. The journey from seed funding to Series A usually takes anywhere from 12 "
+        },
+        {
+          "title": "Seed Funding vs. Series A: Key Differences for Founders",
+          "url": "https://www.crv.com/content/seed-funding-vs-series-a",
+          "snippet": "You've built something that works, early users are paying and now you need capital to grow, but the fundraising conversation shifts depending on whether you're raising a seed round or a Series A. This guide breaks down the practical differences between seed and Series A funding, from round sizes and deal structures to what investors expect at each stage and how to position yourself for the next milestone. ## **What is Seed Funding vs Series A**. Series A is the first major institutional round, r"
+        },
+        {
+          "title": "Top 10 largest Seed and Series A rounds",
+          "url": "https://thegtmnewsletter.substack.com/p/top-10-largest-seed-and-series-a",
+          "snippet": "# Top 10 largest Seed and Series A rounds. *Hello and welcome to **The GTM Newsletter by GTMnow** - read by 50,000+ to scale their companies and careers. GTMnow highlights the strategies, along with the stories from the top 1% of GTM executives, VCs, and founders behind these strategies and companies.*. * **The AI \"Mega-Round\":** Where a new class of founder is raising $10M, $20M, or more, often before a product is even in market. In this edition, we pulled the 10 largest Seed and Series A round"
+        },
+        {
+          "title": "List of Funded Seed Stage Startups (2026) - Fundraise Insider",
+          "url": "https://fundraiseinsider.com/blog/seed-startups/",
+          "snippet": "# List of Funded Seed Stage Startups (2026). Fresh off their first major funding rounds, Seed startups are in high gear: hiring early team members, launching products, setting up key systems, and locking in the tools, partners, and people they’ll grow with. At Fundraise Insider, we track newly funded Seed startups across the US and deliver direct access to their founders and key decision-makers so you can build relationships early, when they matter most – the best sales prospecting leads. When a"
+        }
+      ],
+      "community_results": [
+        {
+          "title": "Hacker News - Reddit",
+          "url": "https://www.reddit.com/r/hackernews/top/",
+          "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+        },
+        {
+          "title": "r/hackernews - Reddit",
+          "url": "https://www.reddit.com/r/hackernews/best/",
+          "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+        },
+        {
+          "title": "r/hackernews - Reddit",
+          "url": "https://www.reddit.com/r/hackernews/hot/",
+          "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+        },
+        {
+          "title": "r/hackernews - Reddit",
+          "url": "https://www.reddit.com/r/hackernews/about/",
+          "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+        },
+        {
+          "title": "r/hackernews - Reddit",
+          "url": "https://www.reddit.com/r/hackernews/",
+          "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+        }
+      ],
+      "pricing_results": []
+    },
+    "error": null,
+    "source": "web"
+  }
+}

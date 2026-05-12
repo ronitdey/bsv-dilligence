@@ -1,0 +1,10 @@
+[
+  {"name": "Tigris Data", "url": "https://www.tigrisdata.com", "github": "tigrisdata/tigris", "portfolio": false},
+  {"name": "Atuin", "url": "https://atuin.sh", "github": "atuinsh/atuin", "portfolio": false},
+  {"name": "BAML", "url": "https://boundaryml.com", "github": "BoundaryML/baml", "portfolio": false},
+  {"name": "Mem0", "url": "https://mem0.ai", "github": "mem0ai/mem0", "portfolio": true},
+  {"name": "Parasail", "url": "https://www.parasail.io", "github": null, "portfolio": false},
+  {"name": "Primitive", "url": "https://www.primitive.dev", "github": null, "portfolio": false},
+  {"name": "Entire", "url": "https://entire.io", "github": null, "portfolio": false},
+  {"name": "Rasa", "url": "https://rasa.community", "github": "RasaHQ/rasa", "portfolio": true}
+]

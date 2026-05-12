@@ -1,0 +1,152 @@
+{
+  "company": {
+    "name": "Rasa",
+    "url": "https://rasa.community",
+    "github": "RasaHQ/rasa",
+    "portfolio": true
+  },
+  "github": {
+    "success": true,
+    "data": {
+      "repo": "RasaHQ/rasa",
+      "stars": 21167,
+      "forks": 4909,
+      "watchers": 352,
+      "open_issues": 145,
+      "created_at": "2016-10-14T12:27:49Z",
+      "pushed_at": "2026-01-29T19:10:46Z",
+      "avg_daily_stars": 6.05,
+      "commits_90d": 0,
+      "closed_issues_90d": 0,
+      "contributor_count": 599,
+      "median_first_response_hours": null,
+      "last_release_date": "2025-01-14T10:40:21Z",
+      "releases_90d": 0,
+      "recent_issues": [
+        {
+          "title": "Feature request: discuss optional ClawMem-backed long-term memory integration",
+          "age_days": 40,
+          "state": "open",
+          "comments": 0,
+          "url": "https://github.com/RasaHQ/rasa/issues/13165"
+        }
+      ],
+      "readme_excerpt": "<h1 align=\"center\">Rasa Open Source</h1>\n\n<div align=\"center\">\n\n[![Join the Agent Engineering Community](https://img.shields.io/badge/Community-Join%20the%20Discussion-blueviolet)](https://info.rasa.com/community?utm_source=github&utm_medium=website&utm_campaign=)\n[![Try Hello Rasa](https://img.shields.io/badge/Playground-Try%20Hello%20Rasa-ff69b4)](https://hello.rasa.ai/?utm_source=github&utm_medium=website&utm_campaign=)\n[![PyPI version](https://badge.fury.io/py/rasa.svg)](https://badge.fury.io/py/rasa)\n[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rasa.svg)](https://pypi.python.org/pypi/rasa)\n[![Build Status](https://github.com/RasaHQ/rasa/workflows/Continuous%20Integration/badge.svg)](https://github.com/RasaHQ/rasa/actions)\n[![Documentation Status](https://img.shields.io/badge/docs-stable-brightgreen.svg)](https://rasa.com/docs)\n\n</div>\n\n<br />\n\n<div align=\"center\">\n  <h3>🚧 <b>Note: Maintenance Mode</b> 🚧</h3>\n  <p>\n    Rasa Open Source is currently in maintenance mode. \n    <br />\n    The future of building AI agents with Rasa is <b>Hello Rasa</b> and <b>CALM</b>.\n  </p>\n</div>\n\n<hr />\n\n## 🚀 The Future of Rasa: Hello Rasa\n\n**Building reliable AI agents just got easier.**\n\n[**Hello Rasa**](https://hello.rasa.ai/?utm_source=github&utm_medium=website&utm_campaign=) is our new interactive playground for prototyping AI agents. It combines LLM fluency with the reliability of business logic using our **CALM** (Conversational AI with Language Models) engine.\n\n### Why switch to Hello Rasa?\n\n* **No setup required:** Open the playground, pick a template (Banking, Telecom, Support), and start building in your browser.\n* **No NLU training:** We have moved beyond intents. The LLM handles dialogue understanding while you define the business flows.\n* **Built-in copilot:** A specialized AI assistant helps you generate code, debug flows, and expand your agent instantly.\n* **Production ready:** Hello Rasa is not just a toy. Export your agent to the Rasa Platform when you are ready to scale.\n\n### Core concepts\n\n* **CALM:** Combines LLM flexibility with strict business logic. The LLM understands the user; the code enforces the rules.\n* **Flows:** Describe logical steps (e.g., collect money, transfer funds) rather than rigid dialogue trees.\n* **Inspector:** See real-time decision-making. No black boxes.\n\n👉 **[Start building for free at Hello Rasa](https://hello.rasa.ai/?utm_source=github&utm_medium=website&utm_campaign=)**\n\n---\n\n## 🧠 Join the Agent Engineering Community\n\nWe are building a home for people shipping real-world AI agents. \n\nAgent Engineering is evolving faster than any single framework. This is a vendor-neutral space to discuss architectures, memory, orchestration, and safety with builders across the industry.\n\n### What you get:\n* **Network:** Meet engineers building production agents\n* **Learn:** Discuss practical patterns, not just theory\n* **Access:** Direct influence on the Hello Rasa roadmap and early access to features\n\n|",
+      "description": "💬   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants",
+      "language": "Python"
+    },
+    "error": null,
+    "source": "github"
+  },
+  "hn": {
+    "success": true,
+    "data": {
+      "mentions_90d": 1062,
+      "mentions_12mo": 3555,
+      "mentions_all_time": 325423,
+      "top_stories": [
+        {
+          "title": "Rasa: Extremely modular text editor built in Haskell",
+          "points": 189,
+          "comments": 59,
+          "url": "https://github.com/ChrisPenner/rasa",
+          "created_at": "2017-01-13T20:29:24Z"
+        },
+        {
+          "title": "RasaGPT: First headless LLM chatbot built on top of Rasa, Langchain and FastAPI",
+          "points": 179,
+          "comments": 111,
+          "url": "https://github.com/paulpierre/RasaGPT",
+          "created_at": "2023-05-08T08:31:37Z"
+        },
+        {
+          "title": "Rasa NLU: Open-source bot tool for natural language understanding",
+          "points": 136,
+          "comments": 21,
+          "url": "https://rasa.ai/",
+          "created_at": "2016-12-18T09:25:51Z"
+        }
+      ]
+    },
+    "error": null,
+    "source": "hackernews"
+  },
+  "packages": [
+    {
+      "success": true,
+      "data": {
+        "registry": "pypi",
+        "package": "rasa",
+        "downloads_30d": 296164,
+        "downloads_90d": 888492,
+        "version_count": 360,
+        "latest_version": "3.6.21"
+      },
+      "error": null,
+      "source": "pypi"
+    }
+  ],
+  "web": {
+    "success": true,
+    "data": {
+      "homepage_text": "Skip to content Docs Playground Learn YouTube Blog Community Join the Community How to Contribute Community Showcase Forum Github Get Started Rasa for Enterprises Build ML-powered Conversational AI An open source framework for building text- and voice-based applications. Get started Star Composable Rasa uses a composable set of primitives for natural language understanding and dialogue management, allowing you to build and scale sophisticated conversational AI. Open Source & Flexible Have full control over your machine learning models. Tweak any part of your pipeline, and use the tools you love to analyse model performance. Global & Inclusive Rasa has been used to build bots in almost 100 languages. Build an assistant in your language and share it with our global community. Learn Rasa Join our fast-growing, open source developer community The Rasa Community is a diverse group of developers, data scientists, designers, and conversational AI enthusiasts. 50m + Downloads 15k + Forum Members 750 + Contributors Join the Community Visit the Forum Running Rasa in a large enterprise? Platform for Enterprises World-class, proprietary platform for teams to create transformational conversational customer experiences at enterprise scale. Learn more Enterprise-grade Support Enabling your team throughout the full lifecyle from Proof of Concept to production - with enterprise-grade, service level agreement-based support and an extensive customer success program. Learn more Rasa-as-a-Service With Rasa-as-a-Service, we take care of managing the Rasa Platform so you can move faster. It comes with proactive, premium support and many other benefits like shorter time-to-value. Learn more Join our Newsletter Stay updated with the latest content and news from Rasa around conversational AI! Build ML-powered Conversational AI Learn Docs Playground Learning Center YouTube Blog Community Join the Community How to Contribute Community Showcase Forum Github Support Rasa for Enterprises Why Rasa for Enterprises Rasa Platform Rasa Pro Rasa X/Enterprise Customer Success & Support Case Studies Social Github Youtube X (Twitter) Like what you see? Let's work together Get answers and a customized quote for your projects Submit RFP © Rasa Technologies Inc - 2024 | Imprint | Privacy Policy | Security | Manage Cookies",
+      "funding_results": [
+        {
+          "title": "Rasa raises $26m in Series B Funding, led by Andreessen Horowitz",
+          "url": "https://www.prnewswire.com/news-releases/rasa-raises-26m-in-series-b-funding-led-by-andreessen-horowitz-301081571.html",
+          "snippet": "Rasa raises $26m in Series B Funding, led by Andreessen Horowitz ... This brings Rasa's total funding to $40 million, including a Series A"
+        },
+        {
+          "title": "Getting to the point; Rasa's $30M in Series C funding to advance conversational AI innovation — TFN",
+          "url": "https://techfundingnews.com/getting-to-the-point-rasas-30m-in-series-c-funding-to-advance-conversational-ai-innovation/",
+          "snippet": "# Getting to the point; Rasa’s $30M in Series C funding to advance conversational AI innovation. San Francisco based Rasa, a leading generative conversational AI platform, has raised $30 million Series C funding round. Melissa Gordon, Rasa CEO, expresses excitement about the investment’s potential to accelerate their market leadership, “This investment accelerates our lead in the market and fuels our drive to redefine what is possible for businesses using generative AI-powered chat and voice pla"
+        },
+        {
+          "title": "Rasa - 2026 Funding Rounds & List of Investors - Tracxn",
+          "url": "https://tracxn.com/d/companies/rasa/__JzqUAUUK-mh039Hy6yIM6AzXO07uWa7zZvXQL6Y8Vvo/funding-and-investors",
+          "snippet": "# Rasa - Funding & Investors. ## Rasa's Funding Rounds. Rasa's largest funding round so far was a Series C round for  $\\*\\*\\*\\*\\* in Feb 2024. Here is the list of all funding rounds of Rasa:. ## Rasa's Investors. * Flyer One Ventures, located in London (United Kingdom), made their first investment in Rasa on Dec 30, 2021 in its Series B round. * Almaz Capital, located in Portola Valley (United States), made their first investment in Rasa on Mar 16, 2021 in its Series B round. * ICU, located in K"
+        },
+        {
+          "title": "Rasa bags $30m in Series C led by PayPal Ventures and StepStone Group",
+          "url": "https://fintech.global/2024/02/16/rasa-bags-30m-in-series-c-led-by-paypal-ventures-and-stepstone-group/",
+          "snippet": "**Rasa, the forefront of generative conversational AI technology, has successfully closed a $30 million Series C funding round.**. The company’s technological prowess and strategic initiatives have positioned it as a transformative force in the industry, poised to broaden its market footprint and solidify its technological leadership. Rasa’s ambition is to lead the conversational AI space by providing sophisticated, AI-powered chat and voice platforms that cater to the complex needs of businesse"
+        },
+        {
+          "title": "Rasa - Crunchbase Company Profile & Funding",
+          "url": "https://www.crunchbase.com/organization/rasa",
+          "snippet": "Rasa provides an open platform for generative conversational AI, enabling the creation and deployment of advanced AI assistants."
+        }
+      ],
+      "community_results": [
+        {
+          "title": "Rasa: Extremely modular text editor built in Haskell | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=13394420",
+          "snippet": "| |  | | --- | | Rasa: Extremely modular text editor built in Haskell (github.com/chrispenner) | | 189 points by poiuz on Jan 13, 2017 | hide | past | favorite | 59 comments |     |  |  | | --- | --- | | |  | | --- | | ChrisPenner on Jan 13, 2017  | next )   Author here; I can answer any questions you might have; It's still a really early project but it's growing quickly! [0]  [1]  | | | |  | | --- | | ChrisPenner on Jan 13, 2017  | parent | next )   Right now it's pretty experimental; We'll be "
+        },
+        {
+          "title": "Curious if people want to suggest alternatives to Rasa for writing stateful chat... | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=35860848",
+          "snippet": "| |  | | --- | | bravura on May 8, 2023  | parent | context | favorite | on: RasaGPT: First headless LLM chatbot built on top o... |     |  |  | | --- | --- | | |  | | --- | | lachlan\\_gray on May 8, 2023  | next )   I’m making a similar “chatbot backend” kind of thing right now, meant to be configurable and versatile, while avoiding dependencies. I’ll have a minimal foundation ready this week, I can send it your way when it’s up if you’d like | | | |  | | --- | | aantti on May 8, 2023  | prev |"
+        },
+        {
+          "title": "I'll +1 SNIPs or Rasa, they're both really nice. It looks like the NLU ...",
+          "url": "https://news.ycombinator.com/item?id=19171775",
+          "snippet": "I'll +1 SNIPs or Rasa, they're both really nice. It looks like the NLU part of Leon is a logistic regression classifier"
+        },
+        {
+          "title": "I highly recommend Rasa Core (https://github.com/RasaHQ ...",
+          "url": "https://news.ycombinator.com/item?id=19171723",
+          "snippet": "I highly recommend Rasa Core (https://github.com/RasaHQ/rasa_core) if you are looking for an open-source virtual assistant."
+        },
+        {
+          "title": "Anyone using RASA or other old school chatbot framework here?",
+          "url": "https://www.reddit.com/r/Chatbots/comments/1gcmtff/anyone_using_rasa_or_other_old_school_chatbot/",
+          "snippet": "So yeah the rasa forum is still the best place for these discussions. In terms of using an LLM for intent classification - we had a component"
+        }
+      ],
+      "pricing_results": []
+    },
+    "error": null,
+    "source": "web"
+  }
+}

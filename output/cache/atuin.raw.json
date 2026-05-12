@@ -1,0 +1,172 @@
+{
+  "company": {
+    "name": "Atuin",
+    "url": "https://atuin.sh",
+    "github": "atuinsh/atuin",
+    "portfolio": false
+  },
+  "github": {
+    "success": true,
+    "data": {
+      "repo": "atuinsh/atuin",
+      "stars": 29681,
+      "forks": 838,
+      "watchers": 76,
+      "open_issues": 485,
+      "created_at": "2020-10-04T23:01:58Z",
+      "pushed_at": "2026-05-12T00:12:14Z",
+      "avg_daily_stars": 14.51,
+      "commits_90d": 197,
+      "closed_issues_90d": 72,
+      "contributor_count": 282,
+      "median_first_response_hours": 7.853888888888888,
+      "last_release_date": "2026-04-28T22:11:59Z",
+      "releases_90d": 21,
+      "recent_issues": [
+        {
+          "title": "[Bug]: TUI shows history count but no entries in global scope (aarch64, Raspberry Pi OS Lite, fish, v18.16.0)",
+          "age_days": 1,
+          "state": "open",
+          "comments": 0,
+          "url": "https://github.com/atuinsh/atuin/issues/3472"
+        },
+        {
+          "title": "[Bug]: Decrypt with incorrect key",
+          "age_days": 1,
+          "state": "open",
+          "comments": 0,
+          "url": "https://github.com/atuinsh/atuin/issues/3471"
+        },
+        {
+          "title": "[Bug]: \"pool timed out\" error text injected as shell command input",
+          "age_days": 5,
+          "state": "closed",
+          "comments": 2,
+          "url": "https://github.com/atuinsh/atuin/issues/3467"
+        }
+      ],
+      "readme_excerpt": "<p align=\"center\">\n <picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://github.com/atuinsh/atuin/assets/53315310/13216a1d-1ac0-4c99-b0eb-d88290fe0efd\">\n  <img alt=\"Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'\" src=\"https://github.com/atuinsh/atuin/assets/53315310/08bc86d4-a781-4aaa-8d7e-478ae6bcd129\">\n</picture>\n</p>\n\n<p align=\"center\">\n<em>magical shell history</em>\n</p>\n\n<hr/>\n\n<p align=\"center\">\n  <a href=\"https://github.com/atuinsh/atuin/actions?query=workflow%3ARust\"><img src=\"https://img.shields.io/github/actions/workflow/status/atuinsh/atuin/rust.yml?style=flat-square\" /></a>\n  <a href=\"https://crates.io/crates/atuin\"><img src=\"https://img.shields.io/crates/v/atuin.svg?style=flat-square\" /></a>\n  <a href=\"https://crates.io/crates/atuin\"><img src=\"https://img.shields.io/crates/d/atuin.svg?style=flat-square\" /></a>\n  <a href=\"https://github.com/atuinsh/atuin/blob/main/LICENSE\"><img src=\"https://img.shields.io/crates/l/atuin.svg?style=flat-square\" /></a>\n  <a href=\"https://discord.gg/Fq8bJSKPHh\"><img src=\"https://img.shields.io/discord/954121165239115808\" /></a>\n  <a rel=\"me\" href=\"https://hachyderm.io/@atuin\"><img src=\"https://img.shields.io/mastodon/follow/109944632283122560?domain=https%3A%2F%2Fhachyderm.io&style=social\"/></a>\n  <a href=\"https://twitter.com/atuinsh\"><img src=\"https://img.shields.io/twitter/follow/atuinsh?style=social\" /></a>\n</p>\n\n[English] | [简体中文]\n\nAtuin replaces your existing shell history with a SQLite database, and records\nadditional context for your commands. Additionally, it provides optional and\n_fully encrypted_ synchronisation of your history between machines, via an Atuin\nserver.\n\n<p align=\"center\">\n  <img src=\"demo.gif\" alt=\"animated\" width=\"80%\" />\n</p>\n\n<p align=\"center\">\n<em>exit code, duration, time and command shown</em>\n</p>\n\nAs well as the search UI, it can do things like this:\n\n```\n# search for all successful `make` commands, recorded after 3pm yesterday\natuin search --exit 0 --after \"yesterday 3pm\" make\n```\n\nYou may use either the server I host, or host your own! Or just don't use sync\nat all. As all history sync is encrypted, I couldn't access your data even if\nI wanted to. And I **really** don't want to.\n\n## Features\n\n- rebind `ctrl-r` and `up` (configurable) to a full screen history search UI\n- store shell history in a sqlite database\n- back up and sync **encrypted** shell history\n- the same history across terminals, across sessions, and across machines\n- log exit code, cwd, hostname, session, command duration, etc\n- calculate statistics such as \"most used command\"\n- old history file is not replaced\n- quick-jump to previous items with <kbd>Alt-\\<num\\></kbd>\n- switch filter modes via ctrl-r; search history just from the current session, directory, or globally\n- enter to execute a command, tab to edit\n\n## Documentation\n\n- [Quickstart](#quickstart)\n- [Install](https://docs.atuin.sh/guide/installation/)\n- [Setting up sync](https://docs.atuin.sh/guide/sync/)\n-",
+      "description": "✨ Making your shell magical",
+      "language": "Rust"
+    },
+    "error": null,
+    "source": "github"
+  },
+  "hn": {
+    "success": true,
+    "data": {
+      "mentions_90d": 6,
+      "mentions_12mo": 43,
+      "mentions_all_time": 474,
+      "top_stories": [
+        {
+          "title": "Atuin Desktop: Runbooks That Run",
+          "points": 572,
+          "comments": 150,
+          "url": "https://blog.atuin.sh/atuin-desktop-runbooks-that-run/",
+          "created_at": "2025-04-22T20:54:52Z"
+        },
+        {
+          "title": "Atuin replaces your existing shell history with a SQLite database",
+          "points": 551,
+          "comments": 194,
+          "url": "https://github.com/ellie/atuin",
+          "created_at": "2023-05-06T08:50:39Z"
+        },
+        {
+          "title": "Atuin – Magical shell history",
+          "points": 327,
+          "comments": 112,
+          "url": "https://atuin.sh",
+          "created_at": "2024-02-21T21:56:14Z"
+        }
+      ]
+    },
+    "error": null,
+    "source": "hackernews"
+  },
+  "packages": [
+    {
+      "success": true,
+      "data": {
+        "registry": "crates",
+        "package": "atuin",
+        "downloads_30d": 2274,
+        "downloads_90d": 6823,
+        "version_count": 56,
+        "latest_version": "18.16.0"
+      },
+      "error": null,
+      "source": "crates"
+    }
+  ],
+  "web": {
+    "success": true,
+    "data": {
+      "homepage_text": "atuin [CLI] [Desktop] [Blog] [Docs] [GitHub] $ get-started $ history | grep deploy $ kubectl get pods $ git log --oneline $ _ $ atuin search docker $ ssh prod-server $ atuin sync $ tail -f logs/app.log $ docker ps -a $ atuin import auto user@atuin:~$ echo \"Making your shell\" Making your shell magical █ Sync, search and backup shell history with Atuin. Install in seconds: $ curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh $ get-cli > get-desktop Available for macOS and Linux → Visit our blog 🚀 Try These Commands $ atuin search docker # Search through shell history $ atuin stats # Show usage statistics $ atuin sync # Sync history (demo mode) $ git status # Real git commands work! $ ls -la ~/.local/share/atuin/ # Explore Atuin's files [close] Proudly open source Trusted by thousands of developers worldwide 25K+ GitHub Stars 230+ Contributors 220M+ Synced History Products Shells all the way down We started with an open-source CLI that developers actually wanted to use. Now we're exploring what happens when that same philosophy meets team workflows. ⚡ Atuin CLI The magical shell history tool loved by developers worldwide. Sync your commands across machines, search everything instantly, and keep your data encrypted. Open source. ✓ Shell history sync across machines ✓ End-to-end encryption. Your data stays yours ✓ Enhanced search with context $ get-cli View on GitHub New 🚀 Atuin Desktop Runbooks that run Atuin Desktop looks like a doc, but runs like your terminal. Kill context switching with executable runbooks that chain shell commands, database queries and HTTP requests. ✓ Docs that don't rot: execute directly + stay relevant ✓ Local-first, CRDT-powered collaboration ✓ Instant recall: autocomplete from your shell history > get-desktop View on GitHub Atuin CLI Shell history supercharged Sync, search, and backup your shell history with end-to-end encryption. The magical shell tool loved by developers worldwide. $ curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh Install Atuin CLI in seconds. Works with bash, zsh, fish, and more. 🔄 Shell history sync Sync your shell history to all of your machines, wherever they are. Never lose a command again. 🔒 End-to-end encryption All data is encrypted client-side and can only be read by you. Your commands stay private. ⚡ Efficient search Search decades of shell history and recall it in an instant. Configurable full text or fuzzy search. 💖 Open source Atuin is open source with a permissive license and has a growing community of contributors. 📥 Data import Bring your existing history with you. Atuin supports importing from a wide variety of formats. 📊 Store extra context Atuin stores extra context with your commands: working directory, exit code, duration, and more! Now in Open Beta! Atuin Desktop Beta Runbooks should run. Built to make workflows repeatable, shareable, and reliable. See what we're building for teams. > get-desktop Terminal Block ▶ Run $ kubectl scale deployment api-server --replicas=5 deployment.apps/api-server scaled $ kubectl rollout status deployment/api-server Waiting for deployment \"api-server\" rollout to finish... deployment \"api-server\" successfully rolled out SQL Query ▶ Execute SELECT status, count(*) FROM deployments WHERE created_at > '2025-01-01' GROUP BY status; STATUS COUNT success 247 pending 12 failed 3 E A Shared with team Synced Production deployment runbook • Last edited 2 hours ago FAQ Frequently Asked Questions Everything you need to know about Atuin CLI Atuin CLI Is Atuin CLI really free? Yes! Atuin CLI is completely open source and free forever. You can self-host the sync server or use our hosted service. Can I use Atuin with my existing shell? Absolutely! Atuin works with bash, zsh, fish, and other popular shells. Installation is simple and doesn't interfere with your existing setup. Does Atuin slow down my shell? Not at all! Atuin is built in Rust for maximum performance. Most users don't notice any difference, and many find",
+      "funding_results": [
+        {
+          "title": "Attune raises $2.2m in Seed funding - News by FinTech Collective",
+          "url": "https://news.fintech.io/post/102iym5/attune-raises-2-2m-in-seed-funding",
+          "snippet": "New York based bank customer engagement company formerly known as Lendsmart raised $2.2m in Seed funding led by Tribeca Early Stage Partners. \""
+        },
+        {
+          "title": "ATTUNE Raises Seed Funding to Innovate Customer Engagement ...",
+          "url": "https://castlecreeklaunchpad.vc/attune-raises-2225000-in-seed-funding-to-innovate-customer-engagement-in-banking/",
+          "snippet": "ATTUNE announced the successful closure of its $2,225,000 seed funding round. This milestone marks the company's evolution from a primarily"
+        },
+        {
+          "title": "ATTUNE Raises $2,225,000 in Seed Funding to Innovate Customer Engagement in Banking",
+          "url": "https://www.prnewswire.com/news-releases/attune-raises-2-225-000-in-seed-funding-to-innovate-customer-engagement-in-banking-302044127.html",
+          "snippet": "## News Releases Overview. ## Multimedia Gallery Overview. ## Auto & Transportation Overview. ## View All Auto & Transportation. ## Business Technology Overview. ## View All Business Technology. ## View All Entertain­ment & Media. ## Financial Services & Investing Overview. ## Financial Services & Investing. ## View All Financial Services & Investing. ## Business Technology. ## General Business Overview. ## View All General Business. ## Consumer Technology Overview. ## Consumer Technology. ## Vi"
+        },
+        {
+          "title": "ATTUNE Raises $2,225,000 in Seed Funding to Innovate Customer Engagement in Banking | ATTUNE",
+          "url": "https://www.linkedin.com/posts/get-attune_attune-raises-2225000-in-seed-funding-activity-7156332982713159680-AFdt",
+          "snippet": "📣 We're thrilled to announce that we've raised a seed funding round and have changed our name from Lendsmart to ATTUNE! With this funding, we're set to accelerate our growth, expand our team, and continue transforming the world of banking. 🔗 Link to press release: https://lnkd.in/eq3hBqsa #ATTUNE #BankingInnovation #Transformation #SeedFunding #TechStartup #DigitalBanking #ICBA #FinancialTechnology #Fintech #Banking #CommunityBanking #CreditUnions #EngagementBanking David Levy John McEvoy Ryan G"
+        },
+        {
+          "title": "Attune - 2026 Funding Rounds & List of Investors - Tracxn",
+          "url": "https://tracxn.com/d/companies/attune/__VKNV8NPf_rJvAoohkcaYYknHJtBzMUkrUcRjNsPN5Ro/funding-and-investors",
+          "snippet": "Attune has raised a total of $2.22M from 1 Seed round on Jan 29, 2024 from Investors like Tribeca ESP and Launchpad Capital."
+        }
+      ],
+      "community_results": [
+        {
+          "title": "Atuin replaces your existing shell history with a SQLite database",
+          "url": "https://www.reddit.com/r/hackernews/comments/139kxs9/atuin_replaces_your_existing_shell_history_with_a/",
+          "snippet": "Atuin replaces your existing shell history with a SQLite database. r/hackernews - Atuin replaces your existing shell history with a SQLite"
+        },
+        {
+          "title": "Atuin Desktop: Runbooks That Run – Now Open Source - Reddit",
+          "url": "https://www.reddit.com/r/hackernews/comments/1nut1wo/atuin_desktop_runbooks_that_run_now_open_source/",
+          "snippet": "I spent a year on Linux and forgot to miss Windows · Apparently, Linux is proprietary now (Found in an article about why netbooks disappeared)."
+        },
+        {
+          "title": "Atuin – Magical shell history | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=39460148",
+          "snippet": "| |  | | --- | | Atuin – Magical shell history (atuin.sh) | | 327 points by tambourine\\_man on Feb 21, 2024 | hide | past | favorite | 112 comments |     |  |  | | --- | --- | | |  | | --- | | berkes on Feb 21, 2024  | next )   I love how it looks and I love some of the fancy features. Here the part of my .bashrc about history:  ```  # append rather than overwrite shopt -s histappend # attempts to save all lines of a multiple-line command in the same history entry shopt -s cmdhist # with cmdhist"
+        },
+        {
+          "title": "Atuin Desktop: Runbooks That Run | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=43766200",
+          "snippet": "| |  | | --- | | Atuin Desktop: Runbooks That Run (atuin.sh) | | 572 points by freetonik on April 22, 2025 | hide | past | favorite | 150 comments |     |  |  | | --- | --- | | |  | | --- | | floathub on April 22, 2025  | next )   For anyone emacs-curious, you can do a similar thing with org-babel You can have a plaintext file which is also the program which is also the documentation/notebook/website/etc. | | | |  | | --- | | zelphirkalt on April 23, 2025  | parent | next )   Actually, in terms "
+        },
+        {
+          "title": "r/hackernews - Reddit",
+          "url": "https://www.reddit.com/r/hackernews/",
+          "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+        }
+      ],
+      "pricing_results": [
+        {
+          "title": "Atuin - Shell History & Executable Runbooks",
+          "url": "https://atuin.sh/",
+          "snippet": "The magical shell history tool loved by developers worldwide. Sync your commands across machines, search everything instantly, and keep your data encrypted."
+        }
+      ]
+    },
+    "error": null,
+    "source": "web"
+  }
+}

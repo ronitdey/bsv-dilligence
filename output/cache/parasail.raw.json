@@ -1,0 +1,118 @@
+{
+  "company": {
+    "name": "Parasail",
+    "url": "https://www.parasail.io",
+    "github": null,
+    "portfolio": false
+  },
+  "github": {
+    "success": false,
+    "data": null,
+    "error": "no repo configured",
+    "source": "github"
+  },
+  "hn": {
+    "success": true,
+    "data": {
+      "mentions_90d": 0,
+      "mentions_12mo": 90,
+      "mentions_all_time": 1022,
+      "top_stories": [
+        {
+          "title": "ParaSail Programming Language: parallel programming language",
+          "points": 97,
+          "comments": 19,
+          "url": "http://parasail-lang.org/",
+          "created_at": "2019-02-09T12:26:40Z"
+        },
+        {
+          "title": "Systems Programming in Distributed, Multicore World with Go, Rust, and Parasail",
+          "points": 51,
+          "comments": 9,
+          "url": "https://docs.google.com/viewer?a=v&pid=forums&srcid=MTM1Nzg0MDEwNzUyNTU3MjA2MDkBMTA5MjQ4NzMyOTM0MzU0MTc0OTEBRmM0Unk2OHZlODhKATAuMQEBdjI",
+          "created_at": "2014-11-08T19:06:31Z"
+        },
+        {
+          "title": "ParaSail:A Pointer-Free Pervasively-Parallel Language for Irregular Computations",
+          "points": 13,
+          "comments": 1,
+          "url": "http://programming-journal.org/2019/3/7/",
+          "created_at": "2019-02-09T12:34:36Z"
+        }
+      ]
+    },
+    "error": null,
+    "source": "hackernews"
+  },
+  "packages": [
+    {
+      "success": false,
+      "data": null,
+      "error": "no known package mappings",
+      "source": "packages"
+    }
+  ],
+  "web": {
+    "success": true,
+    "data": {
+      "homepage_text": "Home About Pricing Docs Blogs Careers Sign In Sign Up No limits. No contracts. Priced right. The world’s fastest, most cost-efficient AI inference network. No quotas, no lock-ins, and up to 30× cheaper than legacy cloud. Get started with free credits Run any model on hugging face Scale from 0 to 10B+ tokens in hours No rate limits, no quotas 30 x Cheaper than legacy clouds 15 + Countries hosting GPUs Day 0 Support for frontier LLMs 500 B+ Tokens served daily Orchestrating the Earth’s GPU resources Scale Go from prototype to planetary scale in minutes, with no long-term commitments Reach Run workloads anywhere in the world through our unified global GPU network Diversity Pick the right hardware for your needs, from top performance to low-cost efficiency One platform for every way AI sees, speaks, and thinks. Image & Video Understanding Transform raw visuals into instant intelligence through distributed inference built for scale and precision. Image & Video Understanding Real-time visual intelligence at scale: Turn images and videos into actionable insights like object detection, activity recognition, and scene understanding — fast enough for live analytics, moderation, or monitoring. Serverless AI pipelines for vision: Deploy, scale, and tune vision workflows declaratively. From frame decoding to multimodal embeddings, Parasail’s planetary infrastructure automatically optimizes for cost, latency, and geography. Flexible, model-agnostic performance: Run any vision or multimodal model; Parasail handles orchestration, routing, and caching across 25+ global clouds for peak performance and transparency. Voice Agents Run natural, real-time voice experiences on colocated models engineered for ultra-low latency and cost. Voice Agents Conversational AI that feels human: Enable emotionally rich, real-time dialogue for assistants, companions, and agents with consistent sub-500 ms latency and expressive control over tone, emotion, and voice. Custom voice pipelines, not APIs: Combine best-in-class models like Whisper, Resemble, and DeepSeek into a unified STT → LLM → TTS stack built for streaming, voice cloning, and multilingual interaction. Optimized for every use case: Support customer service systems that respond instantly, creative tools that speak with personality, and interactive companions that think and talk naturally at a fraction of the cost of legacy APIs. Search & Agents Deploy agentic systems on a global inference network that manages routing, caching, and orchestration to stay fast, reliable, and affordable. Search & Agents Autonomous reasoning at scale: Power intelligent chat and research agents that can plan, search, and synthesize across billions of calls with full observability and control. Composable, inference-aware orchestration: Build complex multi-model chains (retrieval, synthesis, browser control, reflection) that scale seamlessly across Parasail’s global GPU network. Open models, transparent economics: Use the latest open-weight LLMs like DeepSeek, Qwen, or Llama for results that match proprietary APIs at a fraction of the cost. Text LLMs Scale language workflows that deliver fast, factual, and reproducible results at production scale. ‍ Text LLMs Long-context, grounded generation: Combine streaming retrieval and memory with verification so long documents, pipelines, and multi-step synthesis stay accurate and auditable. Evaluation and iteration as part of the pipeline: Run large LLM evaluations, instruction tuning, and synthetic data generation with versioned models, reproducible prompts, and metrics baked into CI. Inference-as-code and model control: Declare tokenization, retrieval, prompting, and fine-tune steps as code so experiments move to production with identical behavior and transparent economics. Deploy your way. Serverless Run any model instantly with pay-per-token pricing and zero setup — ideal for quick experiments or production APIs that auto-scale on demand. Try it out Learn more Dedicated Serverless ",
+      "funding_results": [
+        {
+          "title": "Parasail has successfully raised $4M in seed funding. This new ...",
+          "url": "https://x.com/parasailnetwork/status/1795455239270596900",
+          "snippet": "Parasail has successfully raised $4M in seed funding. This new milestone will enhance DePIN service levels and user experience through our"
+        },
+        {
+          "title": "Parasail Raises $32mn for AI Supercloud Tech | Traced.tech posted ...",
+          "url": "https://www.linkedin.com/posts/traced-tech_parasail-has-raised-32mn-for-its-series-activity-7450231914801725440-rmSR",
+          "snippet": "Parasail has raised $32mn for its Series A round, the proceeds of which will go towards accelerating its go-to-market efforts,"
+        },
+        {
+          "title": "Parasail has raised $32 million in a Series A round to expand its AI ...",
+          "url": "https://www.instagram.com/p/DXJ_IkGkVLA/",
+          "snippet": "Parasail raised $32 million in a Series A co-led by Touring Capital and Kindred Ventures, with Samsung NEXT, Flume Ventures, and Banyan Ventures"
+        },
+        {
+          "title": "Seed Round - Parasail - Crunchbase Funding Round Profile",
+          "url": "https://www.crunchbase.com/funding_round/parasail-seed--109a13f7",
+          "snippet": "Lead Investors ... Protocol Labs Protocol Labs is a research, development, and deployment lab for network protocols."
+        },
+        {
+          "title": "Parasail - 2026 Funding Rounds & List of Investors - Tracxn",
+          "url": "https://tracxn.com/d/companies/parasail/__zYl4AJXdvwKR1v44iPXby8wc57jpEXdYNsm6KakO99s/funding-and-investors",
+          "snippet": "One was Series A round of $32M from Investors like Touring Capital and Kindred Ventures and the other was Seed round of $10M from Investors like"
+        }
+      ],
+      "community_results": [
+        {
+          "title": "r/hackernews - Reddit",
+          "url": "https://www.reddit.com/r/hackernews/",
+          "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+        },
+        {
+          "title": "Teen Model Plunges to Her Death After Unbuckling Her Harness in ...",
+          "url": "https://www.reddit.com/r/worldnewsvideo/comments/1l1hykv/teen_model_plunges_to_her_death_after_unbuckling/",
+          "snippet": "The video does a strangely good job of showing how normally safe you are in a parasail. ... According to Iran's Student News Network, the"
+        },
+        {
+          "title": "2023-04-23 front - Hacker News",
+          "url": "https://news.ycombinator.com/front?day=2023-04-23",
+          "snippet": "1. Lego breaks ground on first US manufacturing facility (manufacturingdive.com) · 2. iOS 17 app sideloading might only be available in Europe ("
+        },
+        {
+          "title": "2012-02-08 front - Hacker News",
+          "url": "https://news.ycombinator.com/front?day=2012-02-08&birth=what_",
+          "snippet": "Hacker News · 1. We are sorry (path.com) · 2. Roger Boisjoly dies at 73; engineer tried to halt Challenger launch (latimes.com) · 3. Advanced Data"
+        },
+        {
+          "title": "2023-02-23 front - Hacker News",
+          "url": "https://news.ycombinator.com/front?day=2023-02-23",
+          "snippet": "1. Reverse engineering a mysterious UDP stream in my hotel (2016) (gkbrk.com) · 2. Sam Zeloof and Jim Keller start a new semiconductor fab ("
+        }
+      ],
+      "pricing_results": []
+    },
+    "error": null,
+    "source": "web"
+  }
+}

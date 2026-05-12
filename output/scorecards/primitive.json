@@ -1,0 +1,159 @@
+{
+  "scorecard": {
+    "company": "Primitive",
+    "one_line_pitch": "Inbound email infrastructure that converts incoming emails to webhook deliveries",
+    "wedge": "Email-to-webhook adapter for developers building products with email interactions",
+    "icp": "Backend engineers and product developers building applications that need to programmatically receive and process inbound email",
+    "wedge_clarity_score": 7,
+    "wedge_clarity_reasoning": "The wedge is clear and specific: convert inbound email to webhooks. This solves a real pain point \u2014 handling incoming email programmatically is notoriously painful (SMTP servers, spam filtering, parsing MIME). The job-to-be-done is obvious: 'I need email sent to my domain to trigger my code.' However, loses points because: (1) this is infrastructure plumbing rather than a complete product experience, (2) category is somewhat crowded (SendGrid Inbound Parse, Mailgun Routes, Postmark Inbound), and (3) homepage provides minimal context on differentiation or specific use cases that would sharpen the wedge further.",
+    "pull_signals_score": 2,
+    "pull_signals_reasoning": "Pull signals are extremely weak. No GitHub repo visible (major red flag for developer tools), so no stars, commits, or contributor metrics. HN mentions (185 in 90d, 415 in 12mo, 1415 all-time) are heavily contaminated by false positives \u2014 the top stories are about 'Primitive Pictures' (an image processing tool from 2016) and generic uses of the word 'primitive' in technical discussions. Actual relevant mentions appear minimal or non-existent. No package download data. The only concrete signal is that they have a live website with Terms of Service suggesting real infrastructure, but there's no evidence of organic developer pull, community discussion, or adoption metrics. This is concerning for a beta product.",
+    "defensibility_score": 3,
+    "defensibility_reasoning": "Limited defensibility trajectory visible. Email-to-webhook is fundamentally a commodity service \u2014 established players (SendGrid, Mailgun, Postmark, AWS SES) already offer this. Switching costs are low (change DNS records, update webhook endpoints). No evidence of: (1) proprietary technology or hard technical problem being solved differently, (2) network effects or data moats, (3) ecosystem lock-in. The beta stage suggests they may be building differentiated features (better deliverability? superior parsing? novel authentication?), but without public details or GitHub repo showing technical depth, this appears to be a thin wrapper on SMTP infrastructure. Could build defensibility through superior reliability, deliverability reputation, or developer experience, but no evidence of this yet.",
+    "bull_case": "Email integration remains a persistent developer pain point with high friction. If Primitive executes on superior developer experience (simpler setup, better parsing, more reliable delivery, clearer debugging), they could capture share from incumbent solutions that are often bolted onto broader email platforms. The infrastructure-as-code generation expects modern API-first tooling, and email tooling hasn't evolved much. Small TAM but potentially sticky once integrated. If they're solving edge cases the big players ignore (complex parsing, specific authentication flows, better spam handling), there's room for a focused player. Beta suggests they're still iterating toward product-market fit.",
+    "bear_case": "No visible traction despite being live. Zero GitHub presence for a developer tool is a critical red flag \u2014 suggests either extreme stealth (unlikely for infrastructure), lack of open-source component (bad for dev tools adoption), or very early/limited usage. Commodity category with entrenched, well-funded competitors who offer this as a feature within broader platforms. No evidence of differentiation. Email deliverability requires reputation building over time, which favors established players. HN signal contamination suggests minimal actual community awareness or discussion. Pricing page absent, business model unclear. Could be a single founder or very small team without resources to compete on reliability and support, which are table stakes for email infrastructure. May be too narrow a wedge to build a venture-scale business.",
+    "what_would_change_ranking": "Three things would materially change this evaluation: (1) GitHub repo with >500 stars and active commits showing technical depth and organic developer interest, (2) concrete evidence of differentiation \u2014 specific technical innovation in parsing/deliverability/DX shown through blog posts or documentation, (3) early customer testimonials or usage metrics (X webhooks delivered/day, Y companies integrated) demonstrating real pull. Additionally, clarity on funding/team (founder background in email infrastructure?) and a clear pricing model would help assess viability. Right now this reads like an idea that may not have found traction yet.",
+    "key_metrics": {
+      "hn_mentions_90d": 185,
+      "hn_mentions_12mo": 415,
+      "github_stars": null,
+      "commits_90d": null,
+      "contributor_count": null
+    },
+    "flags": [
+      "No GitHub repository visible \u2014 critical for developer tool credibility and adoption",
+      "HN mentions heavily contaminated by false positives (Primitive Pictures, generic 'primitive' technical discussions)",
+      "No evidence of actual community traction or organic developer discussion",
+      "Commodity category with strong incumbents (SendGrid, Mailgun, Postmark)",
+      "Beta stage with no visible metrics, pricing, or customer evidence",
+      "Funding search results show unrelated companies (web3 NFTs, DeFi AMM) \u2014 name collision risk",
+      "No package downloads or distribution metrics",
+      "Unclear differentiation from existing email-to-webhook solutions"
+    ]
+  },
+  "raw": {
+    "company": {
+      "name": "Primitive",
+      "url": "https://www.primitive.dev",
+      "github": null,
+      "portfolio": false
+    },
+    "github": {
+      "success": false,
+      "data": null,
+      "error": "no repo configured",
+      "source": "github"
+    },
+    "hn": {
+      "success": true,
+      "data": {
+        "mentions_90d": 185,
+        "mentions_12mo": 415,
+        "mentions_all_time": 1415,
+        "top_stories": [
+          {
+            "title": "Show HN: Primitive Pictures",
+            "points": 894,
+            "comments": 170,
+            "url": "https://github.com/fogleman/primitive",
+            "created_at": "2016-09-20T12:55:22Z"
+          },
+          {
+            "title": "Show HN: Primitive for macOS",
+            "points": 798,
+            "comments": 145,
+            "url": "https://primitive.lol/",
+            "created_at": "2016-11-15T14:54:01Z"
+          },
+          {
+            "title": "Instead of containers, give me strong config and deploy primitives",
+            "points": 334,
+            "comments": 179,
+            "url": "https://abe-winter.github.io/blues/2017/04/27/config-vs-containers.html",
+            "created_at": "2017-04-27T23:10:11Z"
+          }
+        ]
+      },
+      "error": null,
+      "source": "hackernews"
+    },
+    "packages": [
+      {
+        "success": false,
+        "data": null,
+        "error": "no known package mappings",
+        "source": "packages"
+      }
+    ],
+    "web": {
+      "success": true,
+      "data": {
+        "homepage_text": "primitive [beta] \u25d0 email is primitive Get Started Docs \u28e0\u28e4\u28e4\u28ff\u285b\u281b\u281b\u281b\u281b\u281b\u28ff\u28e7\u28e4\u2844 \u2880\u28f0\u2876\u283e\u281b\u281b \u28b7\u2846 \u2808\u281b\u28bb\u28f7\u28f6\u28c6\u2840 \u28b0\u28fe\u2809 \u2838\u28b7\u2846 \u2880\u28f8\u2847\u2808\u2839\u28b7\u28c6\u2840 \u28c0\u28f6\u2836\u2836\u28f6\u28c0\u2840 \u28b8\u2847 \u28b8\u284f\u2801 \u2808\u2839\u28b7\u28c0 \u28a0\u28ff\u2809 \u2809\u2839\u283f\u28e7\u28e4 \u2818\u2803 \u28e4\u281f\u2801 \u2808\u28ff\u28e4 \u28b0\u28e4\u28ec\u28c5\u28c0 \u281b\u2847 \u28c0\u28e0\u28e4\u28fc\u285f\u281b\u283f\u28ff\u28e4\u28e4\u28c0 \u2880\u28e0\u2864\u283f\u28e4 \u28a0\u28e4\u28c4\u28c9\u2809\u2839\u2836\u28a6\u28e4\u2840 \u2880\u28f6\u281b\u281b \u281b\u283b\u28c6\u2840\u2880\u28c0\u28c0\u2870\u283e\u280f\u2801 \u28ff \u28c8\u28c9\u2809\u2809 \u281b\u2833\u2806\u28a0\u28ff\u280b \u28f0\u2876\u2836\u28b6\u28c6 \u2839\u28f7\u2808\u2809\u2809\u2801 \u28ff \u281b\u281b\u283b\u283f\u283f\u28e6\u28e4\u2844\u28c0\u28c0 \u28a0\u287c\u2807 \u28f6\u2809\u2801\u28c0\u2808\u28b9 \u28ff \u28ff \u28b0\u28f6\u28e6\u28e4\u28e4\u28e4\u2844 \u2809\u2809\u2803\u28b8\u28f7\u2836\u280f\u2809\u2809 \u283f\u28c4\u2840\u281b\u281b\u280b \u2880\u28f0\u285f\u2880\u28c6\u28c0 \u28e4\u283f \u28e4\u2844 \u28c0\u28c0\u28c0\u28e4\u28e4\u28e4\u2844\u28b8\u28ff \u28a0\u2844\u2839\u28bf\u28e4\u28e4\u28e4\u28fc\u281f\u2803 \u2809\u281b\u281b\u281b\u28ff\u281b \u2830\u283f\u283f\u281f\u281b\u281b\u2809\u2809 \u283f\u28c6\u2840\u28c0\u28f6\u281b \u28e0\u2804 \u283f\u28e4 \u2880\u28f6\u283f \u2819\u28f7\u28ff \u28ff \u2819\u28a7\u28e4 \u28c0\u28f0\u283e\u2809 \u281b\u283f\u28a6\u28c4\u28c0\u28c0\u28ff\u2840 \u28c0\u28c0\u2876\u2836\u280f\u2809 \u2808\u2809\u2809\u2839\u283f\u283f\u283f\u283f\u283f\u280f\u2809\u2801 \u00a9 2026 primitive Privacy Legal",
+        "funding_results": [
+          {
+            "title": "Primitive Secures 3 Million in Seed Funding on May 1 2021 - Gate.com",
+            "url": "https://www.gate.com/crypto-calendar/fundraising-information/110554",
+            "snippet": "According to media reports, Primitive raised $3 million in seed funding on May 1, 2021. ... Primitive raised $ 9 M in Series A round. 2021-05-01."
+          },
+          {
+            "title": "Primitives - 2026 Funding Rounds & List of Investors - Tracxn",
+            "url": "https://tracxn.com/d/companies/primitives/__28C_xc_SFfGOM5OkLWkW4-1ctAZdUbh7Y86w8e3iqdo/funding-and-investors",
+            "snippet": "Good Boost - London based, raised a funding of $269K in Seed round held on Sep 05, 2025. Rapafusyn - Baltimore based, raised a funding in Series A round held on"
+          },
+          {
+            "title": "Primitives Raises $4M in Pre-Seed Funding - FinSMEs",
+            "url": "https://www.finsmes.com/2022/05/primitives-raises-4m-in-pre-seed-funding.html",
+            "snippet": "HomeUSAPrimitives Raises $4M in Pre-Seed Funding. # Primitives Raises $4M in Pre-Seed Funding. **Primitives**, a New York-based provider of a web3 application designed to facilitate a new way of connecting digitally through experience-based NFTs that users collect in their wallets, raised $4M in Pre-Seed funding. The round was led by Redpoint with participation from Union Square Ventures, Harlem Capital, and Stellation Capital. Led by CEO David \u201cDJ\u201d Gabeau, Primitives is a web3 social applicatio"
+          },
+          {
+            "title": "Primitive raises $9 million to build AMM discovery platform",
+            "url": "https://www.theblock.co/post/164248/primitive-raises-9-million-to-build-amm-discovery-platform",
+            "snippet": "# Primitive raises $9 million to build AMM discovery platform | The Block. May 11, 2026, 12:51PM EDT \u2022 Companies. May 11, 2026, 12:28PM EDT \u2022 Stablecoins. May 11, 2026, 11:37AM EDT \u2022 The Block. # Primitive raises $9 million to build AMM discovery platform. Image 3: Primitive raises $9 million to build AMM discovery platform. *   Bain Capital Crypto leads DeFi infrastructure and product developer Primitive\u2019s $9 million Series A round. *   The new funding will enable Primitive to build products th"
+          },
+          {
+            "title": "Seed Round - Future Primitive - Crunchbase Funding Round Profile",
+            "url": "https://www.crunchbase.com/funding_round/future-primitive-seed--ea3f6b09",
+            "snippet": "Seed Round - Future Primitive. Save. Summary ... Funding Type Seed; Funding Stage Seed; Money Raised. obfuscated. obfuscation. Lead Investors."
+          }
+        ],
+        "community_results": [
+          {
+            "title": "There's a term for this - inventing a new primitive. A ... - Hacker News",
+            "url": "https://news.ycombinator.com/item?id=45611433",
+            "snippet": "A primitive is a foundational abstraction that reframes how people understand and operate within a domain. A primitive lets you create a shared language and"
+          },
+          {
+            "title": "Primitive Technology: Iron Bacteria Cement [video] | Hacker News",
+            "url": "https://news.ycombinator.com/item?id=35002755",
+            "snippet": "If you're new to Primitive Technology then it's worth starting from the oldest videos and working forward. These aren't just random tasks he"
+          },
+          {
+            "title": "A Dangerous Obsession with Primitives | Hacker News",
+            "url": "https://news.ycombinator.com/item?id=4048061",
+            "snippet": "So I prefer to error on the side of wrapping primitives. That said, I've never actually encountered a case where I wrapped a primitive that didn"
+          },
+          {
+            "title": "r/PrimitiveTechnology - Reddit",
+            "url": "https://www.reddit.com/r/PrimitiveTechnology/",
+            "snippet": "r/PrimitiveTechnology: For discussing the Primitive Technology YouTube channel and other related subjects."
+          },
+          {
+            "title": "r/hackernews - Reddit",
+            "url": "https://www.reddit.com/r/hackernews/",
+            "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+          }
+        ],
+        "pricing_results": [
+          {
+            "title": "Terms of Service | primitive",
+            "url": "https://www.primitive.dev/terms",
+            "snippet": "# Terms of Service. ## Service Description. primitive provides inbound email infrastructure that converts incoming emails to webhook deliveries. By using our service, you agree to these terms. ## Acceptable Use. You agree not to use primitive to:. * Violate any applicable laws or regulations. ## Service Availability. We strive for high availability but do not guarantee uninterrupted service. We are not liable for damages resulting from service interruptions, delayed deliveries, or lost emails. *"
+          }
+        ]
+      },
+      "error": null,
+      "source": "web"
+    }
+  },
+  "generated_at": "2026-05-12T17:51:35.099591Z"
+}

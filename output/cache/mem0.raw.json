@@ -1,0 +1,205 @@
+{
+  "company": {
+    "name": "Mem0",
+    "url": "https://mem0.ai",
+    "github": "mem0ai/mem0",
+    "portfolio": true
+  },
+  "github": {
+    "success": true,
+    "data": {
+      "repo": "mem0ai/mem0",
+      "stars": 55512,
+      "forks": 6312,
+      "watchers": 225,
+      "open_issues": 337,
+      "created_at": "2023-06-20T08:58:36Z",
+      "pushed_at": "2026-05-12T15:20:45Z",
+      "avg_daily_stars": 52.52,
+      "commits_90d": 285,
+      "closed_issues_90d": 535,
+      "contributor_count": 313,
+      "median_first_response_hours": 6.249722222222222,
+      "last_release_date": "2026-05-07T20:03:04Z",
+      "releases_90d": 30,
+      "recent_issues": [
+        {
+          "title": "`addMemory` flow excludes `metadata` (e.g. `app_id`) from retrieval and message partitioning, causing cross-context contamination in multi-app setups",
+          "age_days": 0,
+          "state": "open",
+          "comments": 0,
+          "url": "https://github.com/mem0ai/mem0/issues/5121"
+        },
+        {
+          "title": "[Partnership] Scoped integration collaboration",
+          "age_days": 0,
+          "state": "open",
+          "comments": 1,
+          "url": "https://github.com/mem0ai/mem0/issues/5118"
+        },
+        {
+          "title": "Integration: NEXUS financial data tool",
+          "age_days": 1,
+          "state": "open",
+          "comments": 0,
+          "url": "https://github.com/mem0ai/mem0/issues/5108"
+        }
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://github.com/mem0ai/mem0\">\n    <img src=\"docs/images/banner-sm.png\" width=\"800px\" alt=\"Mem0 - The Memory Layer for Personalized AI\">\n  </a>\n</p>\n<p align=\"center\" style=\"display: flex; justify-content: center; gap: 20px; align-items: center;\">\n  <a href=\"https://trendshift.io/repositories/11194\" target=\"blank\">\n    <img src=\"https://trendshift.io/api/badge/repositories/11194\" alt=\"mem0ai%2Fmem0 | Trendshift\" width=\"250\" height=\"55\"/>\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://mem0.ai\">Learn more</a>\n  ·\n  <a href=\"https://mem0.dev/DiG\">Join Discord</a>\n  ·\n  <a href=\"https://mem0.dev/demo\">Demo</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://mem0.dev/DiG\">\n    <img src=\"https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white\" alt=\"Mem0 Discord\">\n  </a>\n  <a href=\"https://pepy.tech/project/mem0ai\">\n    <img src=\"https://img.shields.io/pypi/dm/mem0ai\" alt=\"Mem0 PyPI - Downloads\">\n  </a>\n  <a href=\"https://github.com/mem0ai/mem0\">\n    <img src=\"https://img.shields.io/github/commit-activity/m/mem0ai/mem0?style=flat-square\" alt=\"GitHub commit activity\">\n  </a>\n  <a href=\"https://pypi.org/project/mem0ai\" target=\"blank\">\n    <img src=\"https://img.shields.io/pypi/v/mem0ai?color=%2334D058&label=pypi%20package\" alt=\"Package version\">\n  </a>\n  <a href=\"https://www.npmjs.com/package/mem0ai\" target=\"blank\">\n    <img src=\"https://img.shields.io/npm/v/mem0ai\" alt=\"Npm package\">\n  </a>\n  <a href=\"https://www.ycombinator.com/companies/mem0\">\n    <img src=\"https://img.shields.io/badge/Y%20Combinator-S24-orange?style=flat-square\" alt=\"Y Combinator S24\">\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://mem0.ai/research\"><strong>📄 Benchmarking Mem0's token-efficient memory algorithm →</strong></a>\n</p>\n\n## New Memory Algorithm (April 2026)\n\n| Benchmark | Old | New  | Tokens  | Latency p50  |\n| --- | --- | --- | --- | --- |\n| **LoCoMo** | 71.4 | **91.6** | 7.0K  | 0.88s  |\n| **LongMemEval** | 67.8 | **93.4** | 6.8K  | 1.09s  |\n| **BEAM (1M)** | — | **64.1** | 6.7K  | 1.00s  |\n| **BEAM (10M)** | — | **48.6** | 6.9K  | 1.05s  |\n\nAll benchmarks run on the same production-representative model stack. Single-pass retrieval (one call, no agentic loops).\n\n**What changed:**\n- **Single-pass ADD-only extraction** -- one LLM call, no UPDATE/DELETE. Memories accumulate; nothing is overwritten.\n- **Agent-generated facts are first-class** -- when an agent confirms an action, that information is now stored with equal weight.\n- **Entity linking** -- entities are extracted, embedded, and linked across memories for retrieval boosting.\n- **Multi-signal retrieval** -- semantic, BM25 keyword, and entity matching scored in parallel and fused.\n\nSee the [migration guide](https://docs.mem0.ai/migration/oss-v2-to-v3) for upgrade instructions. The [evaluation framework](https://github.com/mem0ai/memory-benchmarks) is open-sourced so anyone can reproduce the numbers.\n\n## Research Highlights\n- **91.6 on LoCoMo** -- +20 points o",
+      "description": "Universal memory layer for AI Agents",
+      "language": "Python"
+    },
+    "error": null,
+    "source": "github"
+  },
+  "hn": {
+    "success": true,
+    "data": {
+      "mentions_90d": 2086,
+      "mentions_12mo": 6053,
+      "mentions_all_time": 43466,
+      "top_stories": [
+        {
+          "title": "Show HN: Mem0 – open-source Memory Layer for AI apps",
+          "points": 201,
+          "comments": 61,
+          "url": "https://github.com/mem0ai/mem0",
+          "created_at": "2024-09-04T16:01:40Z"
+        },
+        {
+          "title": "Show HN: Mem0 Browser Extension: Shared Memory Across ChatGPT,Claude,Perplexity",
+          "points": 34,
+          "comments": 4,
+          "url": "https://github.com/mem0ai/mem0-chrome-extension",
+          "created_at": "2024-11-04T15:27:54Z"
+        },
+        {
+          "title": "Ask HN: Mem0 stores memories, but doesn't learn user patterns",
+          "points": 9,
+          "comments": 7,
+          "url": "https://news.ycombinator.com/item?id=46891715",
+          "created_at": "2026-02-04T21:02:34Z"
+        }
+      ]
+    },
+    "error": null,
+    "source": "hackernews"
+  },
+  "packages": [
+    {
+      "success": true,
+      "data": {
+        "registry": "pypi",
+        "package": "mem0ai",
+        "downloads_30d": 2873011,
+        "downloads_90d": 8619033,
+        "version_count": 172,
+        "latest_version": "2.0.2"
+      },
+      "error": null,
+      "source": "pypi"
+    },
+    {
+      "success": true,
+      "data": {
+        "registry": "npm",
+        "package": "mem0ai",
+        "downloads_30d": 395849,
+        "downloads_90d": 989630,
+        "version_count": 105,
+        "latest_version": "3.0.3"
+      },
+      "error": null,
+      "source": "npm"
+    }
+  ],
+  "web": {
+    "success": true,
+    "data": {
+      "homepage_text": "DEVELOPERS PRICING USECASES RESOURCES DOCS Star home_primary_get-started Home Start For Free DEVELOPERS PRICING USECASES RESOURCES DOCS home_primary_get-started Home Start For Free Backed by Y Combinator AI memory that persists across sessions and agents Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production. Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production. home_primary_get-started Home Get Started SDK Integration Agent Harness Python NodeJS # Install the SDK pip install mem0ai # Initialize the client from mem0 import MemoryClient client = MemoryClient (api_key= \"your-api-key\" ) # Add a memory messages = [ { \"role\" : \"user\" , \"content\" : \"I'm a vegetarian and allergic to nuts.\" }, { \"role\" : \"assistant\" , \"content\" : \"Got it! I'll remember your dietary preferences.\" } ] client. add (messages, user_id= \"user123\" ) # Search memories results = client. search ( \"What are my dietary restrictions?\" , filters={ \"user_id\" : \"user123\" }) print (results) SDK Integration Agent Harness Python NodeJS # Install the SDK pip install mem0ai # Initialize the client from mem0 import MemoryClient client = MemoryClient (api_key= \"your-api-key\" ) # Add a memory messages = [ { \"role\" : \"user\" , \"content\" : \"I'm a vegetarian and allergic to nuts.\" }, { \"role\" : \"assistant\" , \"content\" : \"Got it! I'll remember your dietary preferences.\" } ] client. add (messages, user_id= \"user123\" ) # Search memories results = client. search ( \"What are my dietary restrictions?\" , filters={ \"user_id\" : \"user123\" }) print (results) 90,000 + 90,000 + 90,000 + 90,000 + 90,000 + 90,000 + Developers build with Mem0 Built for <developers> who want proof, not promises Built for <developers> who want proof, not promises Built for <developers> who want proof, not promises Mem0 gives agents persistent memory without pipeline changes. Less redundant context, lower token costs, measurably faster responses. Mem0 gives agents persistent memory without pipeline changes. Less redundant context, lower token costs, measurably faster responses. Mem0 Try Mem0 now Efficiency Visibility Control Memory Compression Engine Automatically condenses chat history into compact memories that cut tokens and latency while keeping the right context. Try Mem0 now Efficiency Memory Compression Engine Automatically condenses chat history into compact memories that cut tokens and latency while keeping the right context. Visibility Control How it works Add anything. Mem0 learns Add Input data in seconds with no config or boilerplate Learn Mem0 extracts and updates memories Retrieve Mem0 retrieves key memories as users interact Add Input data in seconds with no config or boilerplate Learn Mem0 extracts and updates memories Retrieve Mem0 retrieves key memories as users interact AI memory that adapts to your domain Mem0 helps AI remember what matters. Mem0 helps AI remember what matters. Healthcare Education E-commerce Customer Support Sales & CRM Smart Patient Care Assistant Remembers patient history, allergies, and treatment preferences across visits therefore providing personalized care that improves with every interaction. Chronic Condition Companion Learns what works (and what doesn’t) for the patient over time, offering thoughtful reminders and insights tailored to each patient’s journey. Therapy Progress Tracker Builds on previous sessions to deliver consistent, context-aware mental health support. Creates trust through conversations that remember what matters to each patient. home_secondary_healtcare Home Explore Mem0 for Healthcare HEALTHCARE Smart Patient Care Assistant Remembers patient history, allergies, and treatment preferences across visits therefore providing personalized care that improves with every interaction. home_primary_get-started Home Explore Mem0 for Healthcare Education Adaptive Learning Tutor Adapts to each student's pace and learning style, remembering what works best. Transforms one-siz",
+      "funding_results": [
+        {
+          "title": "Mem0: $24 Million Raised For Powering Memory Layer For AI Agents",
+          "url": "https://pulse2.com/mem0-24-million-raised-for-powering-memory-layer-for-ai-agents/",
+          "snippet": "# Mem0: $24 Million Raised For Powering Memory Layer For AI Agents. Mem0: $24 Million Raised For Powering Memory Layer For AI Agents. Follow Pulse 2.0 on LinkedIn. Mem0, a leading memory infrastructure platform for AI agents, has raised $24 million in combined Seed and Series A funding to build what it calls the “default memory layer for AI.” Kindred Ventures led the Seed round, and the Series A was led by Basis Set Ventures, with participation from Peak XV Partners, GitHub Fund, and Y Combinato"
+        },
+        {
+          "title": "Mem0 Secures $24 Million in Funding | The SaaS News",
+          "url": "https://www.thesaasnews.com/news/mem0-secures-24-million-in-funding",
+          "snippet": "# Mem0 Secures $24 Million in Funding. by Kay Aloha Villamor in Seed Round, Series A  October 29th, 2025. Mem0, a San Francisco-based memory infrastructure platform for AI agents, has raised $24 million in funding. The funding includes a Seed round led by Kindred Ventures and a Series A led by Basis Set Ventures, with participation from Peak XV Partners, GitHub Fund, and Y Combinator, as well as strategic investors such as Scott Belsky, Dharmesh Shah, and CEOs from Datadog, Supabase, PostHog, ex"
+        },
+        {
+          "title": "Entrepreneur India",
+          "url": "https://www.facebook.com/EntrepreneurInd/posts/startupfundingmem0-secures-24m-for-ai-memory-infrastructuremem0-an-ai-memory-inf/1136602965272743/",
+          "snippet": "# #StartupFunding Mem0 Secures $24M... ## Entrepreneur India's Post. ### **Entrepreneur India**. Mem0 Secures $24M for AI Memory Infrastructure. Mem0, an AI memory infrastructure platform, has raised a total of $24 million in combined Seed and Series A funding. The round was led by Basis Set Ventures, with key participation from Peak XV Partners, Kindred Ventures, GitHub Fund, and Y Combinator, alongside notable strategic tech leaders. Founded in 2023, Mem0 provides a crucial memory layer enabli"
+        },
+        {
+          "title": "Mem0 Raises $24M Series A to Build Memory Layer for AI Agents",
+          "url": "https://www.prnewswire.com/news-releases/mem0-raises-24m-series-a-to-build-memory-layer-for-ai-agents-302597157.html",
+          "snippet": "## Business Technology Overview. ## View All Business Technology. ## Consumer Technology Overview. ## View All Consumer Technology. ## Consumer Products & Retail Overview. SAN FRANCISCO, Oct. 28, 2025 /PRNewswire/ -- Mem0, a memory infrastructure platform for AI agents, today announced $24M in funding: a Seed led by Kindred Ventures and Series A led by Basis Set Ventures, with participation from Peak XV Partners, GitHub Fund, and Y Combinator. \"*Every agentic application needs memory, just as ev"
+        },
+        {
+          "title": "Mem0 raises $24M to give AI long-term memory | Mem0 posted on the topic | LinkedIn",
+          "url": "https://www.linkedin.com/posts/mem0_excited-to-announce-mem0s-24m-seed-series-activity-7389346722881228800-5v2h",
+          "snippet": "*   [Report this post](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Fmem0_excited-to-announce-mem0s-24m-seed-series-activity-7389346722881228800-5v2h&trk=public_post_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=POST&_f=guest-reporting). [Like](https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fmem0_excited-to-announce-mem0s-24m-seed-series-activity-7389346722881228800-5v2h&trk=p"
+        }
+      ],
+      "community_results": [
+        {
+          "title": "I've experimented quite a bit with mem0 (which is similar in design) for my Open... | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=47770220",
+          "snippet": "In the end, the extracted \"facts database\" was a complete mess of largely incomplete, invalid, inefficient and unhelpful sentences that didn't help any of my conversations, and after the third injected wrong fact I went back to QMD and prose / summarization. The failure modes were multiple: - Facts rarely exist in a vacuum but have lots of subtlety - Inferring facts from conversation has a gazillion failure modes, especially irony and sarcasm lead to hilarious outcomes (joking about a sixpack wi"
+        },
+        {
+          "title": "Show HN: Mem0 – open-source Memory Layer for AI apps - Reddit",
+          "url": "https://www.reddit.com/r/hackernews/comments/1f94ijt/show_hn_mem0_opensource_memory_layer_for_ai_apps/",
+          "snippet": "Show HN: Mem0 – open-source Memory Layer for AI apps · Show HN: Nyro – Open-source AI assistant for your OS · One month of Super Memo - Feedback"
+        },
+        {
+          "title": "Show HN: Mem0 – open-source Memory Layer for AI apps | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=41447317",
+          "snippet": "| |  | | --- | | Show HN: Mem0 – open-source Memory Layer for AI apps (github.com/mem0ai) | | 201 points by staranjeet on Sept 4, 2024 | hide | past | favorite | 61 comments | | Hey HN! We're Taranjeet and Deshraj, the founders of Mem0 (). Mem0 adds a stateful memory layer to AI applications, allowing them to remember user interactions, preferences, and context over time. You'll need to sign up to use the playground – this helps ensure responses are more tailored to you by associating interactio"
+        },
+        {
+          "title": "Mem0: A Scalable Memory Architecture Enabling Persistent ... - Reddit",
+          "url": "https://www.reddit.com/r/machinelearningnews/comments/1kbpsgd/mem0_a_scalable_memory_architecture_enabling/",
+          "snippet": "A research team from Mem0.ai developed a new memory-focused system called Mem0. This architecture introduces a dynamic mechanism to extract, consolidate, and"
+        },
+        {
+          "title": "Universal LLM Memory Does Not Exist | Hacker News",
+          "url": "https://news.ycombinator.com/item?id=46032521",
+          "snippet": "Author here. I benchmarked Mem0 and Zep on MemBench as memory layers for LLM agents, using gpt-5-nano on 4,000 conversational cases and comparing against a long"
+        }
+      ],
+      "pricing_results": [
+        {
+          "title": "llms.txt - Mem0",
+          "url": "https://mem0.ai/llms.txt",
+          "snippet": "... Pricing URL: https://mem0.ai/pricing ### Hobby – Free - 10,000 memories - Unlimited end users - 1,000 retrieval API calls/month - Community support"
+        },
+        {
+          "title": "AI Memory Pricing - LLM Memory Plans Starting Free | Mem0",
+          "url": "https://mem0.ai/pricing",
+          "snippet": "### Simple and Affordable. ##### Free. ##### $19 Month. ##### Custom. Not finding something that fits your need? We also support usage-based pricing. #### Apply to Mem0’s Startup Program & Get Pro Plan Worth $1000 for Free. Startups under $5M in funding? Apply for 3 months of free access to our Pro plan, priority support, and direct collaboration with our team. ### Frequently Asked Questions. What is the difference between Mem0 Open-Source and Platform? How do I get started?"
+        },
+        {
+          "title": "Anthropic Claude Pricing: Subscription Plans and API Costs - Mem0",
+          "url": "https://mem0.ai/blog/anthropic-claude-pricing",
+          "snippet": "# Anthropic Claude Pricing: Subscription Plans and API Costs. Token costs compound fast - and if you don't understand exactly how Claude charges for input, output, caching, and long-context requests, you'll keep getting surprised. This guide breaks down every Claude pricing tier: subscription plans for individuals and teams, API token costs for developers, and the specific mechanics behind caching, batch processing, and tool usage. It also covers where those costs come from at the code level - a"
+        },
+        {
+          "title": "xAI Grok API Pricing: Every Model, Cost, and Context Window ...",
+          "url": "https://mem0.ai/blog/xai-grok-api-pricing",
+          "snippet": "# xAI Grok API Pricing: Every Model, Cost, and Context Window Compared (2026). Grok 4.1 Fast comes in at $0.20 per million input tokens with a 2 million token context window, cheaper per token than GPT-5 mini, Gemini Flash, and every Anthropic model, with more context than any of them. For individual use, SuperGrok runs **$30/month**, $10 more than ChatGPT Plus or Claude Pro, but with access to Grok 4 and the full 2M context window. This article covers the full API and subscription pricing, the "
+        },
+        {
+          "title": "AI Memory Demo: LLM Memory & RAG Solutions | Mem0",
+          "url": "https://mem0.ai/custom-pricing",
+          "snippet": "# Book a Call with us. Used by 100,000+ developers From. ## Voices From the Field. Mem0 helps developers and enterprises reduce token costs and enhance agents with AI memory. #### How Sunflower Sober Scaled Personalized Recovery Support to 80,000+ Users with Mem0. #### How OpenNote Scaled Personalized Visual Learning with Mem0 While Reducing Token Costs by 40%. ## Join the Mem0 Community. Engage with developers shaping memory-first AI. Share insights to advance the ecosystem. Give your AI a memo"
+        }
+      ]
+    },
+    "error": null,
+    "source": "web"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "scorecard": {
+    "company": "Entire",
+    "one_line_pitch": "Git-native context capture for AI agent sessions, automatically checkpointing every agent conversation alongside commits",
+    "wedge": "Developers using AI coding agents (Claude Code, Cursor, GitHub Copilot CLI) lose context about why code was written; Entire hooks into git workflow to capture and index agent sessions as searchable checkpoints",
+    "icp": "Development teams using AI coding agents who struggle with context loss across sessions and need to understand the reasoning behind code changes",
+    "wedge_clarity_score": 8,
+    "wedge_clarity_reasoning": "Sharp, specific wedge: captures AI agent sessions during git pushes, solving the concrete problem of 'why did the agent write this code?' The product addresses a real pain point (agents remaking mistakes because they lack historical context) with a narrow technical approach (git hooks). ICP is clear: developers already using AI agents. However, loses 2 points because the market is still emerging (not all developers use AI agents daily yet) and the pain point, while real, may not be urgent enough to drive adoption at scale.",
+    "pull_signals_score": 2,
+    "pull_signals_reasoning": "Critically weak pull signals: (1) No GitHub repo visibility despite claiming 'open source \u00b7 MIT licensed' and showing '4.3K entire/contributions' on homepage \u2014 the claim is unverified; (2) HN mentions (1027 in 90d, 3011 in 12mo, 13415 all-time) are almost certainly false positives from the common word 'entire' \u2014 top stories are about Let's Encrypt, Stripe bans, and typing practice sites, none related to this company; (3) No package download data; (4) Claims '$60m seed round' which would be extraordinary but is unverified by third-party sources; (5) Homepage shows recent commit activity timestamps ('2d ago', '3d ago') but the referenced repo is not independently visible. Overall: signals on the marketing page are not independently verified.",
+    "defensibility_score": 4,
+    "defensibility_reasoning": "Theoretical defensibility if executed, but concerning gaps: (1) Git hook integration creates workflow lock-in once adopted; (2) Indexed session history could create data moat over time - the more sessions captured, the more valuable the corpus; (3) Network effects possible if teams share checkpoints; (4) However, the core tech (git hooks + agent session capture) is not technically hard - any competent team could replicate in weeks; (5) Agent integrations listed (Claude Code, Gemini CLI, Cursor) are just API integrations, not deep partnerships; (6) Local-first architecture ('stored directly in your git history') limits network effects and makes switching easier; (7) No evidence of actual IP or proprietary data models. Most concerning: no visible execution yet (no real repo, no real users), so defensibility is purely theoretical.",
+    "bull_case": "If Entire executes, they're positioned at the intersection of two massive trends: AI-assisted coding and context management. The wedge is surgical - git hooks are universal developer infrastructure, and the pain of lost agent context is real and growing as AI coding adoption accelerates. A $60m seed (if true) suggests serious backers see category-defining potential. Local-first architecture could be a competitive advantage for privacy-conscious enterprises. If they nail the UX and become the default context layer for AI coding, they could own infrastructure that every AI-augmented team depends on. Network effects kick in when teams share checkpoints, creating switching costs. The 'why did we write it this way?' problem only gets worse as codebases grow and team turnover increases.",
+    "bear_case": "Red flags around verification: the claimed GitHub repo is not independently visible, HN mentions are false positives, and there is no observable evidence of real users or traction. The '$60m seed' claim is extraordinary and unverified — if true, massive pressure to justify valuation. The product may be very recently launched, with unverified social proof claims (commit timestamps and GitHub stars on homepage not independently verified). Even if real, the wedge is narrow — requires developers to already use AI agents and care enough about context to change workflow. Git hook tools are notoriously brittle and annoying. Local-first storage limits viral growth and makes monetization harder. Core tech is trivial to replicate — any IDE or agent provider could bundle this natively. Category risk: if AI agents get better at maintaining context (likely), the entire problem disappears. Crowded space with Cursor, GitHub Copilot Workspace, and others already building context management. No visible founder, team, or company credibility.",
+    "what_would_change_ranking": "(1) Visible GitHub repo with real stars and commit activity would validate open-source claims and show actual product; (2) Verified funding announcement from credible source (TechCrunch, Crunchbase, investor press release) to confirm $60m seed; (3) HN 'Show HN' post with real engagement from developers actually using the product; (4) Package download metrics showing adoption curve; (5) Named customers or case studies; (6) Public team/founder profiles to assess execution capability; (7) Evidence of agent provider partnerships (official integration pages, co-marketing); (8) Usage metrics: number of repos using Entire, sessions captured per day, retention cohorts. Right now the marketing claims are not independently verified — need proof of real product and real users.",
+    "key_metrics": {
+      "hn_mentions_90d": 1027,
+      "hn_mentions_12mo": 3011,
+      "hn_mentions_all_time": 13415,
+      "note": "HN mentions are almost certainly false positives from common word 'entire' - top stories are unrelated to this company"
+    },
+    "flags": [
+      "CRITICAL: No GitHub repo independently visible despite claiming 'open source' and showing unverified star count (4.3K) on homepage",
+      "CRITICAL: HN mentions are false positives - 'entire' is a common word, top stories completely unrelated",
+      "CRITICAL: Unverified $60m seed claim - extraordinary amount with no external validation",
+      "No package download data or distribution metrics",
+      "Unverified commit timestamps on homepage ('2d ago', '3d ago'); referenced repo not independently visible",
+      "No visible founder, team, or company information",
+      "Appears to be a recently launched site; claimed metrics not independently verified",
+      "Common-name false positive problem makes all HN signal data unusable",
+      "Claims integrations with major agents (Claude Code, Cursor, etc.) but no evidence of partnerships",
+      "Local-first architecture limits viral growth and monetization options"
+    ]
+  },
+  "raw": {
+    "company": {
+      "name": "Entire",
+      "url": "https://entire.io",
+      "github": null,
+      "portfolio": false
+    },
+    "github": {
+      "success": false,
+      "data": null,
+      "error": "no repo configured",
+      "source": "github"
+    },
+    "hn": {
+      "success": true,
+      "data": {
+        "mentions_90d": 1027,
+        "mentions_12mo": 3011,
+        "mentions_all_time": 13415,
+        "top_stories": [
+          {
+            "title": "Launching in 2015: A Certificate Authority to Encrypt the Entire Web",
+            "points": 2019,
+            "comments": 461,
+            "url": "https://www.eff.org/deeplinks/2014/11/certificate-authority-encrypt-entire-web",
+            "created_at": "2014-11-18T15:18:36Z"
+          },
+          {
+            "title": "Stripe has decided to nuke my entire business",
+            "points": 1624,
+            "comments": 678,
+            "url": "https://news.ycombinator.com/item?id=32854528",
+            "created_at": "2022-09-15T16:33:38Z"
+          },
+          {
+            "title": "Show HN: I made a site where you practice typing by retyping entire novels",
+            "points": 1589,
+            "comments": 378,
+            "url": "http://typelit.io",
+            "created_at": "2020-10-06T11:37:53Z"
+          }
+        ]
+      },
+      "error": null,
+      "source": "hackernews"
+    },
+    "packages": [
+      {
+        "success": false,
+        "data": null,
+        "error": "no known package mappings",
+        "source": "packages"
+      }
+    ],
+    "web": {
+      "success": true,
+      "data": {
+        "homepage_text": "Company Vision Blog Dashboard Sign in Announcing Entire with $60m seed round Every commit tells a story. Now you can read it. Entire CLI hooks into your git workflow to capture AI agent sessions on every push. Sessions are indexed alongside commits, a searchable record of how code was written. curl curl -fsSL https://entire.io/install.sh | bash Open source \u00b7 MIT licensed 4.3K entire / contributions Capture context Works where you already operate Entire CLI hooks into your existing tools and workflow. No context switching, no new interfaces to learn. Terminal Re-run my-repository % Setup the CLI One command to set up Entire CLI in your repository. Works with any git-based project, fully open source. Agent Status Claude Code Supported Gemini CLI Supported Cursor Supported OpenCode Supported GitHub Copilot CLI Supported OpenAI Codex Preview Work with any agent Claude Code, Gemini CLI, OpenCode, Cursor, GitHub Copilot CLI, & FactoryAI are supported today. More integrations coming soon. Sessions sync with commits Every conversation is captured and linked to your git history creating a checkpoint automatically. No extra steps required. Fix flaky TestHTTPServer race condition in parallel mode b68df0d49d44 \u00b7 2d ago \u00b7 dipree \u00b7 Claude Code Add webhook retry logic with exponential backoff f92e4d1c88a7 \u00b7 3d ago \u00b7 Soph \u00b7 Gemini Expand t.Parallel exception to mention t.Setenv and t.Chdir a3c17e8f02b1 \u00b7 5d ago \u00b7 dipree \u00b7 Claude Code Migrate session storage from SQLite to Postgres adapter e71a0b3c5f92 \u00b7 6d ago \u00b7 Soph \u00b7 Gemini Add CLI flag --dry-run to preview checkpoint without committing c4d82f6a17e3 \u00b7 1w ago \u00b7 dipree \u00b7 Claude Code Refactor hook runner to support async pre-push middleware d59f1a4e83c0 \u00b7 1w ago \u00b7 Soph \u00b7 Gemini View your entire history Search, view, and understand the intent behind the code that was written. Share context with your team. Why Entire Never start from zero Entire creates a checkpoint for every commit: the code change paired with the agent session that produced it. Context that's attached, not archived. 01 \"Why did we write it this way?\" Every commit gets a checkpoint: the code change paired with the full agent session that produced it. Look at any change and the reasoning is right there. 02 \"Where does all this context actually go?\" Nowhere new. Checkpoints are stored directly in your git history. No hosted service, no external database. Just your repo, your workflow, your data. 03 \"Why does the agent keep making the same mistakes?\" Because it starts every session from zero. Checkpoints give agents the full history of how your codebase was built. Not just the code, but the decisions behind it. Start capturing your intent Entire is open source and free to use. Install it once, and never lose the context behind your commits again. curl curl -fsSL https://entire.io/install.sh | bash Made with \ud83c\udfc3 on \ud83c\udf0e \u00a9 2026 Entire Inc. Product CLI Documentation Company Blog Vision Company Newsroom Brand Legal Privacy Policy Cookie Policy Terms of Service Connect GitHub Discord X Bluesky LinkedIn YouTube Company Vision Blog",
+        "funding_results": [
+          {
+            "title": "Series A, B, C, D, and E Funding: How It Works | Startups.com",
+            "url": "https://www.startups.com/articles/series-funding-a-b-c-d-e",
+            "snippet": "(Some startups may raise pre-seed funding in order to get them to the point where they can raise a traditional seed round, but not every company does that.). Seed funding (or seed financing, seeding round, etc.) may be raised from family and friends, angel investors, incubators, and venture capital firms that focus on early-stage startups. On the other hand, some startups decide that they're not interested in raising more money \u2014 that the level they reach with seed money is good enough or that t"
+          },
+          {
+            "title": "Fundraising Timeline: From Seed to Series A - Phoenix Strategy Group",
+            "url": "https://www.phoenixstrategy.group/blog/fundraising-timeline-from-seed-to-series-a",
+            "snippet": "# Fundraising Timeline: From Seed to Series A. The journey from seed funding to Series A is tough but achievable with the right plan. Seed funding helps validate your idea, while Series A focuses on scaling your business. Fewer than 10% of seed-funded startups secure Series A funding. Start preparing early, focus on clear metrics, and align with investor expectations to improve your chances. ## Timeline and Key Milestones. The journey from seed funding to Series A usually takes anywhere from 12 "
+          },
+          {
+            "title": "Seed Funding vs. Series A: Key Differences for Founders",
+            "url": "https://www.crv.com/content/seed-funding-vs-series-a",
+            "snippet": "You've built something that works, early users are paying and now you need capital to grow, but the fundraising conversation shifts depending on whether you're raising a seed round or a Series A. This guide breaks down the practical differences between seed and Series A funding, from round sizes and deal structures to what investors expect at each stage and how to position yourself for the next milestone. ## **What is Seed Funding vs Series A**. Series A is the first major institutional round, r"
+          },
+          {
+            "title": "Top 10 largest Seed and Series A rounds",
+            "url": "https://thegtmnewsletter.substack.com/p/top-10-largest-seed-and-series-a",
+            "snippet": "# Top 10 largest Seed and Series A rounds. *Hello and welcome to **The GTM Newsletter by GTMnow** - read by 50,000+ to scale their companies and careers. GTMnow highlights the strategies, along with the stories from the top 1% of GTM executives, VCs, and founders behind these strategies and companies.*. * **The AI \"Mega-Round\":** Where a new class of founder is raising $10M, $20M, or more, often before a product is even in market. In this edition, we pulled the 10 largest Seed and Series A round"
+          },
+          {
+            "title": "List of Funded Seed Stage Startups (2026) - Fundraise Insider",
+            "url": "https://fundraiseinsider.com/blog/seed-startups/",
+            "snippet": "# List of Funded Seed Stage Startups (2026). Fresh off their first major funding rounds, Seed startups are in high gear: hiring early team members, launching products, setting up key systems, and locking in the tools, partners, and people they\u2019ll grow with. At Fundraise Insider, we track newly funded Seed startups across the US and deliver direct access to their founders and key decision-makers so you can build relationships early, when they matter most \u2013 the best sales prospecting leads. When a"
+          }
+        ],
+        "community_results": [
+          {
+            "title": "Hacker News - Reddit",
+            "url": "https://www.reddit.com/r/hackernews/top/",
+            "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+          },
+          {
+            "title": "r/hackernews - Reddit",
+            "url": "https://www.reddit.com/r/hackernews/best/",
+            "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+          },
+          {
+            "title": "r/hackernews - Reddit",
+            "url": "https://www.reddit.com/r/hackernews/hot/",
+            "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+          },
+          {
+            "title": "r/hackernews - Reddit",
+            "url": "https://www.reddit.com/r/hackernews/about/",
+            "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+          },
+          {
+            "title": "r/hackernews - Reddit",
+            "url": "https://www.reddit.com/r/hackernews/",
+            "snippet": "r/hackernews: A mirror of the front page of Hacker News."
+          }
+        ],
+        "pricing_results": []
+      },
+      "error": null,
+      "source": "web"
+    }
+  },
+  "generated_at": "2026-05-12T17:52:21.991570Z"
+}
